@@ -11,9 +11,7 @@ export default function Index() {
     return (
         <View className="index">
             <Text>Hello world! !!</Text>
-            <AtButton type="primary" customStyle={{ border: "1px solid #000" }}>
-                按钮文案
-            </AtButton>
+            <AtButton type="primary">按钮文案</AtButton>
         </View>
     );
 }

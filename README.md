@@ -1,6 +1,6 @@
 # SNAP-FE
 
-前端目前采用的是 React + Taro 框架，UI部分可以调用Color UI库
+前端目前采用的是 React + Taro 框架，UI部分调用taro-UI库
 
 ### 部署流程
 
@@ -24,6 +24,7 @@ v20.11.0
 #### Step 2
 
 安装Taro，在终端输入命令` npm i -g @tarojs/cli` 安装 Taro CLI。在终端输入命令 taro，如果出现类似内容就说明安装成功了：
+
 ```
 PS D:\SNAP-dev\SNAP> taro
 👽 Taro v3.6.26
@@ -38,12 +39,29 @@ PS D:\SNAP-dev\SNAP> taro
 ```
 git clone git@github.com:SNAP-DEVELOP/SNAP-FE.git
 ```
+
 clone到本地，cd到`SNAP-FE`目录
 
 输入`npm install`安装依赖（没有报`npm ERR! `应该就是成功了）
 
 #### Step 5
+
+配置taro-UI
+输入`npm install taro-ui`进行安装
+
+> 我在这部分配置的时候遇到了问题，我还进行了`npm i --D @tarojs/plugin-sass`的配置，给taro配置sass，但这部分的安装我没有成功，跑了一半就报错了，不知道这一步有没有起作用
+
+taro-ui可以进行全局的自定义主题，我们后面参考这个文档，修改主题配色等，适配我们的产品->[自定义主题配置](https://taro-ui.jd.com/#/docs/customizetheme)
+
+##### taro-ui的使用
+
+1. 要在程序入口的文件添加`import "taro-ui/dist/style/index.scss";`（我已经完成啦，后面的程序都不用考虑这一步啦）
+2. 在每个页面最顶上import这个页面使用的taro-ui库，如：`import { AtButton } from "taro-ui";`具体可以参考一下`src\pages\index\index.jsx`里简单的使用~
+
+#### Step 6
+
 运行，在终端输入`npm run dev:weapp`
+
 ```powershell
 PS D:\SNAP-dev\SNAP> npm run dev:weapp
 
@@ -57,9 +75,9 @@ PS D:\SNAP-dev\SNAP> npm run dev:weapp
 👽 Taro v3.6.26
 
 提示  appid     touristappid
-生成  工具配置  D:\SNAP-dev\SNAP\dist/project.config.json 
+生成  工具配置  D:\SNAP-dev\SNAP\dist/project.config.json
 启动  开发者工具-项目目录  D:\SNAP-dev\SNAP\dist
-Prebundle dependencies: 
+Prebundle dependencies:
      @tarojs/plugin-framework-react/dist/runtime
      @tarojs/plugin-platform-weapp/dist/runtime
      @tarojs/runtime
