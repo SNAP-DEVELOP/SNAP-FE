@@ -58,6 +58,41 @@ taro-ui可以进行全局的自定义主题，我们后面参考这个文档，�
 1. 要在程序入口的文件添加`import "taro-ui/dist/style/index.scss";`（我已经完成啦，后面的程序都不用考虑这一步啦）
 2. 在每个页面最顶上import这个页面使用的taro-ui库，如：`import { AtButton } from "taro-ui";`具体可以参考一下`src\pages\index\index.jsx`里简单的使用~
 
+##### settings.json
+
+在vscode的settings.json里完成如下配置，复制粘贴进去即可
+（如果不想改全局配置，也可以把`SNAP-FE`存为workspace，改workspace的settings）
+
+```json
+	  // jsx自动修复
+		"editor.formatOnSave": true,
+		// 保存自动修复
+		"eslint.autoFixOnSave": true,
+		"eslint.run": "onSave",
+		"javascript.format.enable": false,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.formatOnPaste": false,
+		"editor.formatOnType": true,
+		"files.autoSave": "onFocusChange",
+		"eslint.nodePath": "",
+		"files.trimTrailingWhitespace": true,
+
+		"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			{
+			"language": "html",
+			"autoFix": true
+			},
+			{
+			"language": "react",
+			"autoFix": true
+			}
+		]
+```
+
 #### Step 6
 
 运行，在终端输入`npm run dev:weapp`
