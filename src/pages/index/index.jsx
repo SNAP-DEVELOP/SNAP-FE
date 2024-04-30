@@ -25,8 +25,9 @@ export default function Index() {
             <View className="index.card2">
                 <View className="index.ArrowLeft2"></View>
                 <View className="index.picture2"></View>
-                <View className="index.ArrowRight2"></View>    
+                <View className="index.ArrowRight2"></View>     
             </View>  
+            <View className="index.card3"></View>
         </View>
     );
 }

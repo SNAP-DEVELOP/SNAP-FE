@@ -93,18 +93,9 @@
 
 .ArrowLeft {
     /* 方向一 */
-
     position: absolute;
-    left: 1px;
-    top: 200px;
-    width: 48px;
-    height: 48px;
-    opacity: 1;
-    background: url(image/方向一.png);
-
-    position: absolute;
-    left: 28.26px;
-    top: 608.26px;
+    left: 2px;
+    top: 190px;
     width: 48px;
     height: 48px;
     opacity: 1;
@@ -193,7 +184,7 @@
 .card2 {
     position: absolute;
     left: 75px;
-    top: 1090px;
+    top: 1100px;
     width: 590px;
     height: 492px;
     border-radius: 18px;
@@ -214,7 +205,7 @@
 
     position: absolute;
     left: 1px;
-    top: 250px;
+    top: 190px;
     width: 48px;
     height: 48px;
     opacity: 1;
@@ -224,7 +215,7 @@
 
 .picture2 {
     position: absolute;
-    left: 50px;
+    left: 45px;
     top: 45px;
     width: 488px;
     height: 304px;
@@ -246,4 +237,17 @@
     opacity: 1;
 
     background: url(image/方向一.png);
+}
+.card3{
+  /* 组 33 */
+
+position: absolute;
+left: 45px;
+top: 1450px;
+width: 650px;
+height: 166px;
+opacity: 1;
+	
+background: url(image/card3.png);
+	
 }
