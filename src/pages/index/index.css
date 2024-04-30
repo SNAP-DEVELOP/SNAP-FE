@@ -1,0 +1,96 @@
+.page {
+    left: 0px;
+    top: 0px;
+    width: 731.5px;
+    height: 1432.5px;
+    border-radius: 52px;
+    opacity: 1;
+
+    background: #fff8e8;
+
+    border-width: 4px 14px 12px 6px;
+    border-style: solid;
+    border-color: #000000;
+}
+.head {
+    position: absolute;
+    left: 55.74px;
+    top: 52.44px;
+    width: 265.22px;
+    height: 113.42px;
+    opacity: 1;
+
+    font-family: Angkor;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0em;
+
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #3d3d3d;
+}
+.banner {
+    position: absolute;
+    left: 24px;
+    top: 140px;
+    width: 590px;
+    height: 204px;
+    opacity: 1;
+
+    background: url(image/banner.png), rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.16);
+}
+.card {
+    position: absolute;
+    left: 24px;
+    top: 404px;
+    width: 590px;
+    height: 492px;
+    border-radius: 18px;
+    opacity: 1;
+
+    background: #ffffff;
+
+    box-sizing: border-box;
+    border-width: 4.8px 10px 8px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+}
+.backgroundLogo {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    width: 370px;
+    height: 458px;
+    mix-blend-mode: multiply;
+    opacity: 0.3;
+
+    background: url(image/Snap-logo.png);
+}
+.picture {
+    position: absolute;
+    left: 76px;
+    top: 426px;
+    width: 488px;
+    height: 304px;
+    border-radius: 22px;
+    opacity: 1;
+
+    background: url(image/picture.png);
+}
+.right{
+  /* 方向一 */
+
+position: absolute;
+left: 28.26px;
+top: 608.26px;
+width: 48px;
+height: 48px;
+opacity: 1;
+background: url(image/方向一.png);
+
+}

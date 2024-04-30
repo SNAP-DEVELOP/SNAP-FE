@@ -9,9 +9,15 @@ export default function Index() {
     });
 
     return (
-        <View className="index">
-            <Text>Hello world! !!</Text>
-            <AtButton type="primary">按钮文案</AtButton>
+        <View className="index.page">
+            <View className="index.head">SNAP!</View>
+            <View className="index.backgroundLogo"></View>
+            <View className="index.banner"></View>
+            <View className="index.card">
+                <View className="index.right"></View>
+
+                <View className="index.picture"></View>
+            </View>
         </View>
     );
 }
