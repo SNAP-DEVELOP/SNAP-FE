@@ -1,7 +1,6 @@
 import { View, Text } from "@tarojs/components";
 import { useLoad } from "@tarojs/taro";
 import "./index.css";
-import { AtButton } from "taro-ui";
 
 export default function Index() {
     useLoad(() => {
