@@ -61,45 +61,14 @@ top: 0px;
     background: url(image/Snap-logo.png);
 }
 
-.BottomNavigation {
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    /* width: 640px; */
-    width: calc(100vw);
-
-    height: 156px;
-    opacity: 1;
-
-    background: #fffefc;
-
-    border: 4px solid #000000;
-}
-.BottomNavigation2 {
-    /* width: 582px; */
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    width: calc(100vw - 40px);
-    height: 112px;
-    border-radius: 34px;
-    opacity: 1;
-    background: #ffffff;
-    box-sizing: border-box;
-    border-width: 4px 6px 6px 5px;
-    border-style: solid;
-    border-color: #000000;
-}
 .head {
     margin-left: 70px;
     margin-top: 100px;
     width: 173px;
     height: 40px;
     opacity: 1;
-    background: url(image/SNAP.png);
+    background: url(image/SNAP.png) no-repeat center center;
+    background-size: cover;
 }
 
 .banner {
@@ -133,7 +102,7 @@ top: 0px;
     height: 350px;
     border-radius: 22px;
     opacity: 1;
-    background: url(image/picture.png);
+    background: url(image/picture.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -154,17 +123,21 @@ top: 0px;
 }
 
 .likeIcon {
-    width: 40px;
-    height: 39px;
+    width: 48px;
+    height: 46px;
     opacity: 1;
-    background: url(image/heart.png);
+    background: url(image/heart.png) no-repeat center center;
+    background-size: contain;
+    margin: 2px;
 }
 
 .starIcon {
     width: 48px;
     height: 48px;
     opacity: 1;
-    background: url(image/star.png);
+    background: url(image/star.png) no-repeat center center;
+    background-size: contain;
+    margin: 2px;
 }
 
 .avatar {
@@ -172,7 +145,8 @@ top: 0px;
     height: 86px;
     opacity: 1;
 
-    background: url(image/头像.png);
+    background: url(image/头像.png) no-repeat center center;
+    background-size: cover;
 }
 
 .username {
@@ -199,11 +173,44 @@ top: 0px;
     color: #848484;
 }
 
+.BottomNavigation {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    /* width: 640px; */
+    width: calc(100vw);
+
+    height: 156px;
+    opacity: 1;
+
+    background: #fffefc;
+
+    border: 4px solid #000000;
+}
+.BottomNavigation2 {
+    /* width: 582px; */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    width: calc(100vw - 70px);
+    height: 112px;
+    border-radius: 34px;
+    opacity: 1;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-width: 4px 6px 6px 5px;
+    border-style: solid;
+    border-color: #000000;
+}
 .HomeIcon {
     width: 33.26%;
     height: 58.72%;
     opacity: 1;
-    background: url(image/HomeIcon.png);
+    background: url(image/HomeIcon.png) no-repeat center center;
+    background-size: cover;
 }
 .HomeButton {
     display: flex;
@@ -223,7 +230,8 @@ top: 0px;
     width: 40.26%;
     height: 59.72%;
     opacity: 1;
-    background: url(image/MomentsIcon.png);
+    background: url(image/MomentsIcon.png) no-repeat center center;
+    background-size: cover;
 }
 .MomentsButton {
     display: flex;
@@ -243,7 +251,8 @@ top: 0px;
     width: 43.26%;
     height: 58.72%;
     opacity: 1;
-    background: url(image/ChatIcon.png);
+    background: url(image/ChatIcon.png) no-repeat center center;
+    background-size: cover;
 }
 .ChatButton {
     display: flex;
@@ -258,7 +267,8 @@ top: 0px;
     width: 40.26%;
     height: 58.72%;
     opacity: 1;
-    background: url(image/CalendarIcon.png);
+    background: url(image/CalendarIcon.png) no-repeat center center;
+    background-size: cover;
 }
 .CalendarButton {
     display: flex;

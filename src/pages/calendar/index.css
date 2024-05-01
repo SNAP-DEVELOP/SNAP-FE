@@ -38,166 +38,6 @@
     background: url(image/Snap-logo.png);
 }
 
-/* .SettingIcon {
-    width: 50px;
-    height: 50px;
-    opacity: 1;
-    background: url(image/SetIcon.png);
-}
-.SettingButton {
-    width: 48px;
-    height: 48px;
-    opacity: 1;
-} */
-.subtitle1 {
-    /* 咔嚓小助手 */
-    opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 48px;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    font-feature-settings: "kern" on;
-    color: #3d3d3d;
-}
-.body1 {
-    /* 下午好！今日微风 宜出游 📷 */
-    opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    font-feature-settings: "kern" on;
-    color: #898989;
-}
-.avator {
-    /* 圆形 15 */
-
-    width: 114px;
-    height: 112px;
-    opacity: 1;
-
-    background: url(image/avator.png);
-
-    box-sizing: border-box;
-    border: 4px solid #000000;
-}
-.userProfileCard1 {
-    /* 矩形 5 */
-
-    width: 686px;
-    height: 202px;
-    border-radius: 36px;
-    opacity: 1;
-
-    background: #ffffff;
-
-    border-width: 4.8px 10px 8px 5px;
-    border-style: solid;
-    border-color: #3d3d3d;
-}
-.userProfileCard2 {
-    /* 矩形 6 */
-
-  
-    width: 686px;
-    height: 86px;
-    border-radius: 36px 36px 0px 0px;
-    opacity: 1;
-
-    background: #3d3d3d;
-
-    border-width: 4.8px 10px 8px 5px;
-    border-style: solid;
-    border-color: #3d3d3d;
-}
-.subtitle2 {
-    /* 足迹 */
-    opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    font-feature-settings: "kern" on;
-    color: #ffffff;
-}
-.body2 {
-    /* 37 */
-    opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    font-feature-settings: "kern" on;
-    color: #3d3d3d;
-}
-.body3 {
-    /* 笔记 */
-    opacity: 1;
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0em;
-    font-variation-settings: "opsz" auto;
-    font-feature-settings: "kern" on;
-    color: #898989;
-}
-.calendarCard {
-    /* 组 14 */
-    width: 780px;
-    height: 1690px;
-    opacity: 1;
-    background: url(image/PhotoCalendar.png);
-}
-.body4 {
-    /* 回忆相册 */
-
-    opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 36px;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    font-feature-settings: "kern" on;
-    color: #3d3d3d;
-}
-.albumCard1 {
-    /* 组 6 */
-
-    width: 326px;
-    height: 206px;
-    opacity: 1;
-
-    background: url(image/photo1.png);
-}
-.albumCard2 {
-    /* 组 8 */
-
-    width: 326px;
-    height: 206px;
-    opacity: 1;
-
-    background: url(image/photo2.png);
-}
 .BottomNavigation {
     position: fixed;
     right: 0px;
@@ -308,4 +148,164 @@
     border-width: 4px 6px 6px 5px;
     border-style: solid;
     border-color: #000000;
+}
+
+/* .SettingIcon {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    background: url(image/SetIcon.png);
+}
+.SettingButton {
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+} */
+.subtitle1 {
+    /* 咔嚓小助手 */
+    opacity: 1;
+
+    font-family: Alibaba PuHuiTi 3;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0em;
+
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #3d3d3d;
+}
+.body1 {
+    /* 下午好！今日微风 宜出游 📷 */
+    opacity: 1;
+
+    font-family: Alibaba PuHuiTi 3;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0em;
+
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #898989;
+}
+.avator {
+    /* 圆形 15 */
+
+    width: 114px;
+    height: 112px;
+    opacity: 1;
+
+    background: url(image/avator.png);
+
+    box-sizing: border-box;
+    border: 4px solid #000000;
+}
+.userProfileCard1 {
+    /* 矩形 5 */
+
+    width: 686px;
+    height: 202px;
+    border-radius: 36px;
+    opacity: 1;
+
+    background: #ffffff;
+
+    border-width: 4.8px 10px 8px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+}
+.userProfileCard2 {
+    /* 矩形 6 */
+
+    width: 686px;
+    height: 86px;
+    border-radius: 36px 36px 0px 0px;
+    opacity: 1;
+
+    background: #3d3d3d;
+
+    border-width: 4.8px 10px 8px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+}
+.subtitle2 {
+    /* 足迹 */
+    opacity: 1;
+
+    font-family: Alibaba PuHuiTi 3;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0em;
+
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+.body2 {
+    /* 37 */
+    opacity: 1;
+
+    font-family: Alibaba PuHuiTi 3;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0em;
+
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #3d3d3d;
+}
+.body3 {
+    /* 笔记 */
+    opacity: 1;
+    font-family: Alibaba PuHuiTi 3;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #898989;
+}
+.calendarCard {
+    /* 组 14 */
+    width: 780px;
+    height: 1690px;
+    opacity: 1;
+    background: url(image/PhotoCalendar.png);
+}
+.body4 {
+    /* 回忆相册 */
+
+    opacity: 1;
+
+    font-family: Alibaba PuHuiTi 3;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0em;
+
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #3d3d3d;
+}
+.albumCard1 {
+    /* 组 6 */
+
+    width: 326px;
+    height: 206px;
+    opacity: 1;
+
+    background: url(image/photo1.png);
+}
+.albumCard2 {
+    /* 组 8 */
+
+    width: 326px;
+    height: 206px;
+    opacity: 1;
+
+    background: url(image/photo2.png);
 }

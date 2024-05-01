@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.box {
+    display: flex;
+    margin: 10px;
+}
+
+.page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 16px);
+    border-radius: 52px;
+    opacity: 1;
+    background: #fff8e8;
+    border-width: 4px 14px 12px 6px;
+    border-style: solid;
+    border-color: #000000;
+    z-index: -1;
+}
+
+.backgroundLogo {
+    position: fixed;
+    right: 10px;
+    top: 0px;
+    width: 370px;
+    height: 458px;
+    mix-blend-mode: multiply;
+    opacity: 0.3;
+    background: url(image/Snap-logo.png);
+}
+
+.BottomNavigation {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw);
+    height: 156px;
+    opacity: 1;
+
+    background: #fffefc;
+    border: 4px solid #000000;
+}
+
+.BottomNavigation2 {
+    /* width: 582px; */
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    width: calc(100vw - 40px);
+    height: 112px;
+    border-radius: 34px;
+    opacity: 1;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-width: 4px 6px 6px 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.head {
+    margin-left: 70px;
+    margin-top: 100px;
+    width: 173px;
+    height: 40px;
+    opacity: 1;
+    background: url(image/SNAP.png);
+}
+
+.HomeIcon {
+    width: 31.26%;
+    height: 56.72%;
+    opacity: 1;
+    background: url(image/HomeIcon.png);
+}
+
+.HomeButton {
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    width: 120px;
+    height: 72px;
+    border-radius: 48px;
+    opacity: 1;
+}
+
+.MomentsIcon {
+    width: 40.26%;
+    height: 59.72%;
+    opacity: 1;
+    background: url(image/MomentsIcon.png);
+}
+
+.MomentsButton {
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    width: 120px;
+    height: 72px;
+    border-radius: 48px;
+    opacity: 1;
+}
+
+.ChatIcon {
+    width: 43.26%;
+    height: 58.72%;
+    opacity: 1;
+    background: url(image/ChatIcon.png);
+}
+
+.ChatButton {
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    width: 120px;
+    height: 72px;
+    border-radius: 48px;
+    opacity: 1;
+    background: #ffd500;
+    box-sizing: border-box;
+    border-width: 4px 6px 6px 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.CalendarIcon {
+    width: 40.26%;
+    height: 62.72%;
+    opacity: 1;
+    background: url(image/CalendarIcon.png);
+}
+
+.CalendarButton {
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    width: 120px;
+    height: 72px;
+    border-radius: 48px;
+    opacity: 1;
+}
