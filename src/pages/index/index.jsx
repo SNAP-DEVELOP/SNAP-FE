@@ -136,16 +136,28 @@ export default function Index() {
             </View>
             <View className="index.BottomNavigation">
                 <View className="index.BottomNavigation2">
-                    <View className="index.HomeButton">
+                    <View
+                        className="index.HomeButton"
+                        style={{ margin: "0px 10px 0px 10px" }}
+                    >
                         <View className="index.HomeIcon"></View>
                     </View>
-                    <View className="index.MomentsButton">
+                    <View
+                        className="index.MomentsButton"
+                        style={{ margin: "0px 10px 0px 10px" }}
+                    >
                         <View className="index.MomentsIcon"></View>
                     </View>
-                    <View className="index.ChatButton">
+                    <View
+                        className="index.ChatButton"
+                        style={{ margin: "0px 10px 0px 10px" }}
+                    >
                         <View className="index.ChatIcon"></View>
                     </View>
-                    <View className="index.CalendarButton">
+                    <View
+                        className="index.CalendarButton"
+                        style={{ margin: "0px 10px 0px 10px" }}
+                    >
                         <View className="index.CalendarIcon"></View>
                     </View>
                 </View>
