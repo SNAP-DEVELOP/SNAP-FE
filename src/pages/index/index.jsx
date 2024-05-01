@@ -1,6 +1,7 @@
 import { View, Text } from "@tarojs/components";
 import { useLoad } from "@tarojs/taro";
 import "./index.css";
+import "../../app.css";
 
 export default function Index() {
     useLoad(() => {
@@ -46,7 +47,7 @@ export default function Index() {
                         }}
                     >
                         <View
-                            className="index.user"
+                            className="index.avatar"
                             style={{ marginRight: "5px" }}
                         ></View>
                         <View>
@@ -85,7 +86,7 @@ export default function Index() {
                         }}
                     >
                         <View
-                            className="index.user"
+                            className="index.avatar"
                             style={{ marginRight: "5px" }}
                         ></View>
                         <View>
@@ -124,7 +125,7 @@ export default function Index() {
                         }}
                     >
                         <View
-                            className="index.user"
+                            className="index.avatar"
                             style={{ marginRight: "5px" }}
                         ></View>
                         <View>
