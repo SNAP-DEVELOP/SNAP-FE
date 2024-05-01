@@ -37,6 +37,15 @@
     opacity: 0.3;
     background: url(image/Snap-logo.png);
 }
+.head {
+  margin-left: 70px;
+  margin-top: 100px;
+  width: 173px;
+  height: 40px;
+  opacity: 1;
+  background: url(image/SNAP.png) no-repeat center center;
+  background-size: cover;
+}
 
 .BottomNavigation {
     position: fixed;
@@ -70,20 +79,13 @@
     border-style: solid;
     border-color: #000000;
 }
-.head {
-    margin-left: 70px;
-    margin-top: 100px;
-    width: 173px;
-    height: 40px;
-    opacity: 1;
-    background: url(image/SNAP.png);
-}
 
 .HomeIcon {
     width: 31.26%;
     height: 56.72%;
     opacity: 1;
-    background: url(image/HomeIcon.png);
+    background: url(image/HomeIcon.png) no-repeat center center;
+    background-size: cover;
 }
 .HomeButton {
     display: flex;
@@ -98,7 +100,8 @@
     width: 40.26%;
     height: 59.72%;
     opacity: 1;
-    background: url(image/MomentsIcon.png);
+    background: url(image/MomentsIcon.png) no-repeat center center;
+    background-size: cover;
 }
 .MomentsButton {
     display: flex;
@@ -118,7 +121,8 @@
     width: 43.26%;
     height: 58.72%;
     opacity: 1;
-    background: url(image/ChatIcon.png);
+    background: url(image/ChatIcon.png) no-repeat center center;
+    background-size: cover;
 }
 .ChatButton {
     display: flex;
@@ -133,7 +137,8 @@
     width: 40.26%;
     height: 62.72%;
     opacity: 1;
-    background: url(image/CalendarIcon.png);
+    background: url(image/CalendarIcon.png) no-repeat center center;
+    background-size: cover;
 }
 .CalendarButton {
     display: flex;
@@ -195,16 +200,16 @@
     width: 114px;
     height: 112px;
     opacity: 1;
-
-    background: url(image/avator.png);
-
+    background: url(image/avator.png) no-repeat center center;
+    background-size: cover;
+/* 
     box-sizing: border-box;
-    border: 4px solid #000000;
+    border: 4px solid #000000; */
 }
 .userProfileCard1 {
     /* 矩形 5 */
-
-    width: 686px;
+    width: 100%;
+    /* width: 686px; */
     height: 202px;
     border-radius: 36px;
     opacity: 1;
@@ -217,17 +222,21 @@
 }
 .userProfileCard2 {
     /* 矩形 6 */
+    display: flex;
+    justify-content: left; 
+    align-items: center; /* 垂直居中 */
+    /* width: 690px; */
+    width: 101%;
 
-    width: 686px;
     height: 86px;
     border-radius: 36px 36px 0px 0px;
     opacity: 1;
-
+margin-top: -1px;
+margin-left: -1px;
     background: #3d3d3d;
-
-    border-width: 4.8px 10px 8px 5px;
+    /* border-width: 4.8px 10px 8px 5px;
     border-style: solid;
-    border-color: #3d3d3d;
+    border-color: #3d3d3d; */
 }
 .subtitle2 {
     /* 足迹 */
@@ -271,10 +280,11 @@
 }
 .calendarCard {
     /* 组 14 */
-    width: 780px;
-    height: 1690px;
+    width: 750px;
+    height: 690px;
     opacity: 1;
-    background: url(image/PhotoCalendar.png);
+    background: url(image/PhotoCalendar.png) no-repeat center center;
+    background-size: contain;
 }
 .body4 {
     /* 回忆相册 */
@@ -294,18 +304,18 @@
 .albumCard1 {
     /* 组 6 */
 
-    width: 326px;
-    height: 206px;
+    width: 100%;
+    height: 290px;
     opacity: 1;
 
-    background: url(image/photo1.png);
+    background: url(image/photo1.png) no-repeat center center;
+    background-size: contain;
 }
 .albumCard2 {
-    /* 组 8 */
-
-    width: 326px;
-    height: 206px;
+    width: 100%;
+    height: 290px;
     opacity: 1;
 
-    background: url(image/photo2.png);
+    background: url(image/photo2.png) no-repeat center center;
+    background-size: contain;
 }

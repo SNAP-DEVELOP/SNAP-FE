@@ -1,15 +1,12 @@
 .container {
     display: flex;
-    justify-content: center;
-    /* 水平居中 */
-    align-items: center;
-    /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
     margin-top: 40px;
     margin-bottom: 50px;
     margin-left: 40px;
     margin-right: 40px;
 }
-
 .box {
     display: flex;
     margin: 10px;
@@ -40,364 +37,284 @@
     opacity: 0.3;
     background: url(image/Snap-logo.png);
 }
+.head {
+    margin-left: 70px;
+    margin-top: 100px;
+    width: 173px;
+    height: 40px;
+    opacity: 1;
+    background: url(image/SNAP.png) no-repeat center center;
+    background-size: cover;
+}
 
-.card1 {
-    /* 矩形 3 */
+.BottomNavigation {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    /* width: 640px; */
+    width: calc(100vw);
 
-    position: absolute;
-    left: 23px;
-    top: 88px;
-    width: 343px;
-    height: 43px;
-    border-radius: 55px;
+    height: 156px;
     opacity: 1;
 
+    background: #fffefc;
+
+    border: 4px solid #000000;
+}
+.BottomNavigation2 {
+    /* width: 582px; */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    width: calc(100vw - 40px);
+    height: 112px;
+    border-radius: 34px;
+    opacity: 1;
     background: #ffffff;
-
-    border-width: 1.5px 3px 3px 1.5px;
-    border-style: solid;
-    border-color: #3d3d3d;
-}
-
-.content {
-    /* 春日出片秘籍 */
-
-    position: absolute;
-    left: 43px;
-    top: 97px;
-    width: 107px;
-    height: 25px;
-    opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    font-feature-settings: "kern" on;
-    color: rgba(61, 61, 61, 0.4);
-}
-
-.SearchIcon {
-    /* 路径 */
-
-    position: absolute;
-    left: 3px;
-    top: 8px;
-    width: 67.65%;
-    height: 67.65%;
-    opacity: 1;
-
-    background: url(image/SearchIcon.png);
-}
-
-.SearchButton {
-    /* 搜索 */
-
-    position: absolute;
-    left: 326px;
-    top: 89px;
-    width: 34px;
-    height: 34px;
-    opacity: 0.4;
-}
-
-.FollowText {
-    /* 关注 */
-
-    position: absolute;
-    left: 35px;
-    top: 150px;
-    width: 28px;
-    height: 20px;
-    opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    color: rgba(61, 61, 61, 0.8);
-}
-
-.CommendIcon {
-    /* 推荐 */
-
-    position: absolute;
-    left: 132px;
-    top: 150px;
-    width: 28px;
-    height: 20px;
-    opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    color: #ffffff;
-}
-
-.CommentButton {
-    /* 矩形 5 */
-
-    position: absolute;
-    left: 102px;
-    top: 144px;
-    width: 86px;
-    height: 33px;
-    border-radius: 91px;
-    opacity: 1;
-
-    background: #3d3d3d;
-
     box-sizing: border-box;
-    border-width: 1px 2px 2px 1px;
+    border-width: 4px 6px 6px 5px;
     border-style: solid;
     border-color: #000000;
 }
 
-.FriendsText {
-    /* 朋友 */
-
-    position: absolute;
-    left: 232px;
-    top: 151px;
-    width: 28px;
-    height: 20px;
+.HomeIcon {
+    width: 31.26%;
+    height: 56.72%;
     opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    color: #3d3d3d;
+    background: url(image/HomeIcon.png) no-repeat center center;
+    background-size: cover;
 }
-
-.InvitationText {
-    /* 帖子 */
-
-    position: absolute;
-    left: 330px;
-    top: 151px;
-    width: 28px;
-    height: 20px;
+.HomeButton {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    width: 120px;
+    height: 72px;
+    border-radius: 48px;
     opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    color: rgba(61, 61, 61, 0.8);
 }
-
-.card2 {
-    /* 矩形 4 */
-
-    position: absolute;
-    left: 23px;
-    top: 188px;
-    width: 343px;
-    height: 315px;
-    border-radius: 18px;
+.MomentsIcon {
+    width: 40.26%;
+    height: 59.72%;
     opacity: 1;
-
-    background: #ffffff;
-
-    border-width: 2.4px 5px 4px 2.5px;
+    background: url(image/MomentsIcon.png) no-repeat center center;
+    background-size: cover;
+}
+.MomentsButton {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    width: 120px;
+    height: 72px;
+    border-radius: 48px;
+    opacity: 1;
+    background: #ffd500;
+    box-sizing: border-box;
+    border-width: 4px 6px 6px 5px;
     border-style: solid;
-    border-color: #3d3d3d;
+    border-color: #000000;
+}
+.ChatIcon {
+    width: 43.26%;
+    height: 58.72%;
+    opacity: 1;
+    background: url(image/ChatIcon.png) no-repeat center center;
+    background-size: cover;
+}
+.ChatButton {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    width: 120px;
+    height: 72px;
+    border-radius: 48px;
+    opacity: 1;
+}
+.CalendarIcon {
+    width: 40.26%;
+    height: 62.72%;
+    opacity: 1;
+    background: url(image/CalendarIcon.png) no-repeat center center;
+    background-size: cover;
+}
+.CalendarButton {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    width: 120px;
+    height: 72px;
+    border-radius: 48px;
+    opacity: 1;
 }
 
-.picture_moments2 {
+.searchBar {
+    /* 矩形 3 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 686px;
+height: 86px;
+border-radius: 110px;
+opacity: 1;
+
+background: #FFFFFF;
+
+border-width: 3px 6px 6px 3px;
+border-style: solid;
+border-color: #3D3D3D;
+}
+
+.body5 {
+    /* 春日出片秘籍 */
+
+opacity: 1;
+	
+font-family: Alibaba PuHuiTi 3.0;
+font-size: 36px;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-variation-settings: "opsz" auto;
+font-feature-settings: "kern" on;
+color: rgba(61, 61, 61, 0.4);
+	
+}
+
+.searchIcon {
+    /* 搜索 */
+    margin-right:20px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.4;
+    background: url(image/SearchIcon.png) no-repeat center center;
+    background-size: cover;
+}
+
+.cardWrap {
+    /* 矩形 4 */
+    width: 686px;
+    height: 630px;
+    border-radius: 36px;
+    opacity: 1;
+    
+    background: #FFFFFF;
+    
+    border-width: 4.8px 10px 8px 5px;
+    border-style: solid;
+    border-color: #3D3D3D;
+}
+
+.picture1 {
     /* image */
+    position: relative;
+    width: 660px;
+    height: 412px;
+    border-radius: 34px;
+    opacity: 1;    
 
-    position: absolute;
-    left: 29px;
-    top: 194px;
-    width: 330px;
-    height: 206px;
-    border-radius: 11px;
-    opacity: 1;
-
-    background: url(image/picture_moments2.png);
+    background: url(image/picture1.png) no-repeat center center;
+    background-size: cover;
+    z-index: 1; 
 }
 
-.circle1 {
+.circleGroup {
     /* 圆形 7 */
-
     position: absolute;
-    left: 167px;
-    top: 387px;
-    width: 6px;
-    height: 6px;
+    bottom: 17px;
+    left: 50%; 
+    transform: translate(-50%, 50%);
+    width: 84px;
+    height: 12px;
     opacity: 1;
-
-    background: url(image/circle1.png);
-
+    background: url(image/circleGroup.png) no-repeat center center;
     box-sizing: border-box;
-    border: 1px solid #ffffff;
+    /* border: 2px solid #FFFFFF; */
+    z-index: 0; 
 }
 
-.circle2 {
-    /* 圆形 8 */
-
-    position: absolute;
-    left: 179px;
-    top: 387px;
-    width: 6px;
-    height: 6px;
-    opacity: 1;
-
-    background: url(image/circle2.png);
-
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
-}
-
-.circle3 {
-    /* 圆形 9 */
-
-    position: absolute;
-    left: 191px;
-    top: 387px;
-    width: 6px;
-    height: 6px;
-    opacity: 1;
-
-    background: url(image/circle3.png);
-
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
-}
-
-.circle4 {
-    /* 圆形 10 */
-
-    position: absolute;
-    left: 203px;
-    top: 387px;
-    width: 6px;
-    height: 6px;
-    opacity: 1;
-
-    background: url(image/circle4.png);
-
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
-}
-
-.headline1 {
+.headline {
     /* 想要留住 🎓 和你一起的回忆 */
-
-    position: absolute;
-    left: 35px;
-    top: 410px;
-    width: 202px;
-    height: 22px;
+    /* 毛毛虫🐱会变成蝴蝶吗？ */
+ 
     opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 16px;
+    
+    font-family: Alibaba PuHuiTi 3.0;
+    font-size: 32px;
     font-weight: 800;
     line-height: normal;
     letter-spacing: 0em;
-
+    
     font-variation-settings: "opsz" auto;
     font-feature-settings: "kern" on;
-    color: #3d3d3d;
+    color: #3D3D3D;    
 }
-
+.Button {
+    /* chat-smile-3-fill */
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+}
 .FavourIcon {
     /* 路径 */
-
-    position: absolute;
-    left: 1px;
-    top: 1.16px;
-    width: 91.67%;
-    height: 82.67%;
+    width: 50px;
+    height: 50px;
     opacity: 1;
 
-    background: #d8d8d8;
+    background: url(image/FavourIcon.png) no-repeat center center;
+    background-size: cover;
 }
 
 .FavourButton {
     /* thumb-up-fill */
-
-    position: absolute;
-    left: 261px;
-    top: 410px;
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 50px;
     opacity: 1;
 }
 
-.ChatIcon2 {
+.CommentIcon {
     /* 路径 */
-
-    position: absolute;
-    left: 2px;
-    top: 2px;
-    width: 83.33%;
-    height: 83.33%;
+    width: 50px;
+    height: 50px;
     opacity: 1;
 
-    background: url(image/ChatIcon2.png);
+    background: url(image/CommentIcon.png) no-repeat center center;
+    background-size: cover;
 }
 
-.ChatButton {
+.CommentButton {
     /* chat-smile-3-fill */
-
-    position: absolute;
-    left: 298px;
-    top: 410px;
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 50px;
     opacity: 1;
 }
 
 .StarIcon {
     /* 路径 */
-
-    position: absolute;
-    left: 0.59px;
-    top: 0.5px;
-    width: 95.11%;
-    height: 90.45%;
+    width: 50px;
+    height: 50px;
     opacity: 1;
-
-    background: url(image/StarIcon.png);
+    background: url(image/StarIcon.png) no-repeat center center;
+    background-size: cover;
 }
 
 .StarButton {
     /* star-fill */
-
-    position: absolute;
-    left: 335px;
-    top: 410px;
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 50px;
     opacity: 1;
 }
 
 .avatar {
-    width: 86px;
-    height: 86px;
+  width: 94px;
+  height: 94px;
     opacity: 1;
 
-    background: url(image/头像.png);
+    background: url(image/Avator.png) no-repeat center center;
+    background-size: cover;
 }
 
 .username {
@@ -424,363 +341,28 @@
     color: #848484;
 }
 
-.card3 {
-    /* 蒙版组 1 */
-
-    position: absolute;
-    left: 0px;
-    top: 10px;
-    width: 390px;
-    height: 844px;
-    border-radius: 26px;
-    opacity: 1;
-
-    background: #fff8e8;
-
-    border-width: 2px 7px 6px 3px;
-    border-style: solid;
-    border-color: #000000;
-}
-
-.picture_moments3 {
+.picture2 {
     /* image */
 
-    position: absolute;
-    left: 6px;
-    top: 6px;
-    width: 330px;
-    height: 206px;
+    width: 630px;
+    height: 406px;
     border-radius: 11px;
     opacity: 1;
 
-    background: url(image/picture_moments3.png);
+    background: url(image/picture2.png) no-repeat center center;
+    background-size: cover;
 }
 
-.circle5 {
-    /* 圆形 7 */
-
-    position: absolute;
-    left: 167px;
-    top: 720px;
-    width: 6px;
-    height: 6px;
-    opacity: 1;
-
-    background: url(image/circle1.png);
-
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
-}
-
-.circle6 {
-    /* 圆形 8 */
-
-    position: absolute;
-    left: 179px;
-    top: 720px;
-    width: 6px;
-    height: 6px;
-    opacity: 1;
-
-    background: url(image/circle2.png);
-
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
-}
-
-.circle7 {
-    /* 圆形 9 */
-
-    position: absolute;
-    left: 191px;
-    top: 720px;
-    width: 6px;
-    height: 6px;
-    opacity: 1;
-
-    background: url(image/circle3.png);
-
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
-}
-
-.circle8 {
-    /* 圆形 10 */
-
-    position: absolute;
-    left: 203px;
-    top: 720px;
-    width: 6px;
-    height: 6px;
-    opacity: 1;
-
-    background: url(image/circle4.png);
-
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
-}
-
-.AddIcon_verticalflow {
-    /* 矩形 8 */
-
-    position: absolute;
-    left: 308.5px;
-    top: 687px;
-    width: 5px;
-    height: 36px;
+.AddNewMomentButton {
+    position: fixed;
+    right: 40px;
+    bottom: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 4px;
     opacity: 1;
 
-    background: url(image/verticalflow.png);
+    background: url(image/AddNewMoment.png)no-repeat center center;
+    background-size: cover;
 }
 
-.AddIcon_levelflow {
-    /* 矩形 9 */
-
-    position: absolute;
-    left: 329px;
-    top: 702.5px;
-    width: 5px;
-    height: 36px;
-    transform: rotate(90deg);
-    border-radius: 13px;
-    opacity: 1;
-
-    background: url(image/levelflow.png);
-}
-
-.AddButton {
-    /* 圆形 3 */
-
-    position: absolute;
-    left: 270px;
-    top: 663px;
-    width: 81px;
-    height: 81px;
-    opacity: 1;
-
-    background: #ffd500;
-
-    border: 4px solid #3d3d3d;
-}
-
-.headline2 {
-    /* 毛毛虫🐱会变成蝴蝶吗？ */
-
-    position: absolute;
-    left: 12px;
-    top: 222px;
-    width: 178px;
-    height: 22px;
-    opacity: 1;
-
-    font-family: Alibaba PuHuiTi 3;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    font-feature-settings: "kern" on;
-    color: #3d3d3d;
-}
-
-.FavourIcon_next {
-    /* 路径 */
-
-    position: absolute;
-    left: 1px;
-    top: 1.16px;
-    width: 91.67%;
-    height: 82.67%;
-    opacity: 1;
-
-    background: #d8d8d8;
-}
-
-.FavourButton_next {
-    /* thumb-up-fill */
-
-    position: absolute;
-    left: 238px;
-    top: 222px;
-    width: 24px;
-    height: 24px;
-    opacity: 1;
-}
-
-.ChatIcon_moments_next {
-    /* 路径 */
-
-    position: absolute;
-    left: 2px;
-    top: 2px;
-    width: 83.33%;
-    height: 83.33%;
-    opacity: 1;
-
-    background: url(image/ChatIcon_moments.png);
-}
-
-.ChatButton_next {
-    /* chat-smile-3-fill */
-
-    position: absolute;
-    left: 235px;
-    top: 222px;
-    width: 24px;
-    height: 24px;
-    opacity: 1;
-}
-
-.StarIcon_next {
-    /* 路径 */
-
-    position: absolute;
-    left: 0.59px;
-    top: 0.5px;
-    width: 95.11%;
-    height: 90.45%;
-    opacity: 1;
-
-    background: url(image/StarIcon.png);
-}
-
-.StarButton_next {
-    /* star-fill */
-
-    position: absolute;
-    left: 312px;
-    top: 222px;
-    width: 24px;
-    height: 24px;
-    opacity: 1;
-}
-
-.BottomNavigation {
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    display: flex;
-    justify-content: center;
-    /* 水平居中 */
-    align-items: center;
-    /* 垂直居中 */
-    /* width: 640px; */
-    width: calc(100vw);
-
-    height: 156px;
-    opacity: 1;
-
-    background: #fffefc;
-
-    border: 4px solid #000000;
-}
-
-.BottomNavigation2 {
-    /* width: 582px; */
-    display: flex;
-    justify-content: center;
-    /* 水平居中 */
-    align-items: center;
-    /* 垂直居中 */
-    width: calc(100vw - 40px);
-    height: 112px;
-    border-radius: 34px;
-    opacity: 1;
-    background: #ffffff;
-    box-sizing: border-box;
-    border-width: 4px 6px 6px 5px;
-    border-style: solid;
-    border-color: #000000;
-}
-
-.head {
-    margin-left: 70px;
-    margin-top: 100px;
-    width: 173px;
-    height: 40px;
-    opacity: 1;
-    background: url(image/SNAP.png);
-}
-
-.HomeIcon {
-    width: 31.26%;
-    height: 56.72%;
-    opacity: 1;
-    background: url(image/HomeIcon.png);
-}
-
-.HomeButton {
-    display: flex;
-    justify-content: center;
-    /* 水平居中 */
-    align-items: center;
-    /* 垂直居中 */
-    width: 120px;
-    height: 72px;
-    border-radius: 48px;
-    opacity: 1;
-}
-
-.MomentsIcon {
-    width: 40.26%;
-    height: 59.72%;
-    opacity: 1;
-    background: url(image/MomentsIcon.png);
-}
-
-.MomentsButton {
-    display: flex;
-    justify-content: center;
-    /* 水平居中 */
-    align-items: center;
-    /* 垂直居中 */
-    width: 120px;
-    height: 72px;
-    border-radius: 48px;
-    opacity: 1;
-    background: #ffd500;
-    box-sizing: border-box;
-    border-width: 4px 6px 6px 5px;
-    border-style: solid;
-    border-color: #000000;
-}
-
-.ChatIcon {
-    width: 43.26%;
-    height: 58.72%;
-    opacity: 1;
-    background: url(image/ChatIcon.png);
-}
-
-.ChatButton {
-    display: flex;
-    justify-content: center;
-    /* 水平居中 */
-    align-items: center;
-    /* 垂直居中 */
-    width: 120px;
-    height: 72px;
-    border-radius: 48px;
-    opacity: 1;
-}
-
-.CalendarIcon {
-    width: 40.26%;
-    height: 62.72%;
-    opacity: 1;
-    background: url(image/CalendarIcon.png);
-}
-
-.CalendarButton {
-    display: flex;
-    justify-content: center;
-    /* 水平居中 */
-    align-items: center;
-    /* 垂直居中 */
-    width: 120px;
-    height: 72px;
-    border-radius: 48px;
-    opacity: 1;
-}

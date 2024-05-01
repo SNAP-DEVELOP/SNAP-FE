@@ -1,7 +1,5 @@
-import { View, Text } from "@tarojs/components";
-import { useLoad } from "@tarojs/taro";
+import { View } from "@tarojs/components";
 import "./index.css";
-
 import Taro from "@tarojs/taro";
 
 function BottomNavigation() {
@@ -12,7 +10,7 @@ function BottomNavigation() {
                     className="index.HomeButton"
                     style={{ margin: "0px 10px 0px 10px" }}
                     onClick={() =>
-                        Taro.navigateTo({ url: "/pages/home/index" })
+                        Taro.navigateTo({ url: "/pages/index/index" })
                     }
                 >
                     <View className="index.HomeIcon"></View>
@@ -48,20 +46,4 @@ function BottomNavigation() {
         </View>
     );
 }
-
-export default function Calendar() {
-    useLoad(() => {
-        console.log("Page loaded.");
-    });
-
-    return (
-        <View>
-            <View className="index.page" />
-            <View className="index.backgroundLogo" />
-            <View className="index.box">
-                <View className="index.head" />
-            </View>
-            <BottomNavigation />
-        </View>
-    );
-}
+export default BottomNavigation;

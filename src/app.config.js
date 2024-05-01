@@ -1,5 +1,5 @@
 export default defineAppConfig({
-    pages: ["pages/index/index", "pages/calendar/index","pages/moments/index"],
+    pages: ["pages/index/index", "pages/calendar/index","pages/moments/index", "pages/home/index"],
     // pages: ["pages/calendar/calendar"],
     // pages: ["pages/moments/moments"],
     // 
