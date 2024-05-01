@@ -15,9 +15,7 @@ export default function Calendar() {
             <View className="calendar.box">
                 <View className="calendar.head" />
             </View>
-            <View className="SettingButton">
-              <View className="SettingIcon"/>
-            </View>
+           
             <View className="calendar.BottomNavigation">
                 <View className="calendar.BottomNavigation2">
                     <View

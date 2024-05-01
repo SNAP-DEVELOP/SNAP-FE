@@ -1,5 +1,5 @@
 export default defineAppConfig({
-    pages: ["pages/moment/moment"],
+    pages: ["pages/calendars/calendars"],
     window: {
         backgroundTextStyle: "light",
         navigationBarBackgroundColor: "#fff",
