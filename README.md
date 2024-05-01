@@ -1,6 +1,6 @@
 # SNAP-FE
 
-前端目前采用的是 React + Taro 框架，UI部分调用taro-UI库
+前端目前采用的是 React + Taro 框架
 
 ### 部署流程
 

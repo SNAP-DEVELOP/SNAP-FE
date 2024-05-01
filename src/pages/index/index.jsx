@@ -8,27 +8,148 @@ export default function Index() {
     });
 
     return (
-        <View className="index.page">
-            <View className="index.head">SNAP!</View>
-            <View className="index.backgroundLogo"></View>
-            <View className="index.banner"></View>
-            <View className="index.card">
-                <View className="index.ArrowLeft"></View>
-                <View className="index.picture"></View>
-                <View className="index.ArrowRight"></View>
-                <View className="index.user"></View>
-                <View className="index.username"></View> 
-                <View className="index.number"></View>
-                <View className="index.heart"></View>
-                <View className="index.star"></View> 
-            </View>  
-            <View className="index.card2">
-                <View className="index.ArrowLeft2"></View>
-                <View className="index.picture2"></View>
-                <View className="index.ArrowRight2"></View>     
-            </View>  
-            <View className="index.card3"></View>
+        <View>
+            <View className="index.page" />
+            <View className="index.backgroundLogo" />
+            <View className="index.box">
+                <View className="index.head" />
+            </View>
+            <View className="index.container">
+                <View className="index.banner" />
+            </View>
+            <View className="index.container">
+                <View className="index.card">
+                    <View
+                        className="index.container"
+                        style={{ margin: "10px 0px 0px 0px" }}
+                    >
+                        <View className="index.arrowLeft"></View>
+                        <View className="index.picture"></View>
+                        <View className="index.arrowRight"></View>
+                    </View>
+                    <View
+                        className="index.container"
+                        style={{
+                            margin: "5px 15px 0px 0px",
+                            justifyContent: "flex-end",
+                        }}
+                    >
+                        <View className="index.likeIcon" />
+                        <View className="index.starIcon" />
+                    </View>
+
+                    <View
+                        className="index.container"
+                        style={{
+                            margin: "3px 0px 10px 15px",
+                            justifyContent: "flex-start",
+                        }}
+                    >
+                        <View
+                            className="index.user"
+                            style={{ marginRight: "5px" }}
+                        ></View>
+                        <View>
+                            <View className="index.username">困困233</View>
+                            <View className="index.number">累计获赞555377</View>
+                        </View>
+                    </View>
+                </View>
+            </View>
+            <View className="index.container">
+                <View className="index.card">
+                    <View
+                        className="index.container"
+                        style={{ margin: "10px 0px 0px 0px" }}
+                    >
+                        <View className="index.arrowLeft"></View>
+                        <View className="index.picture"></View>
+                        <View className="index.arrowRight"></View>
+                    </View>
+                    <View
+                        className="index.container"
+                        style={{
+                            margin: "5px 15px 0px 0px",
+                            justifyContent: "flex-end",
+                        }}
+                    >
+                        <View className="index.likeIcon" />
+                        <View className="index.starIcon" />
+                    </View>
+
+                    <View
+                        className="index.container"
+                        style={{
+                            margin: "3px 0px 10px 15px",
+                            justifyContent: "flex-start",
+                        }}
+                    >
+                        <View
+                            className="index.user"
+                            style={{ marginRight: "5px" }}
+                        ></View>
+                        <View>
+                            <View className="index.username">困困233</View>
+                            <View className="index.number">累计获赞555377</View>
+                        </View>
+                    </View>
+                </View>
+            </View>
+            <View className="index.container">
+                <View className="index.card">
+                    <View
+                        className="index.container"
+                        style={{ margin: "10px 0px 0px 0px" }}
+                    >
+                        <View className="index.arrowLeft"></View>
+                        <View className="index.picture"></View>
+                        <View className="index.arrowRight"></View>
+                    </View>
+                    <View
+                        className="index.container"
+                        style={{
+                            margin: "5px 15px 0px 0px",
+                            justifyContent: "flex-end",
+                        }}
+                    >
+                        <View className="index.likeIcon" />
+                        <View className="index.starIcon" />
+                    </View>
+
+                    <View
+                        className="index.container"
+                        style={{
+                            margin: "3px 0px 10px 15px",
+                            justifyContent: "flex-start",
+                        }}
+                    >
+                        <View
+                            className="index.user"
+                            style={{ marginRight: "5px" }}
+                        ></View>
+                        <View>
+                            <View className="index.username">困困233</View>
+                            <View className="index.number">累计获赞555377</View>
+                        </View>
+                    </View>
+                </View>
+            </View>
+            <View className="index.BottomNavigation">
+                <View className="index.BottomNavigation2">
+                    <View className="index.HomeButton">
+                        <View className="index.HomeIcon"></View>
+                    </View>
+                    <View className="index.MomentsButton">
+                        <View className="index.MomentsIcon"></View>
+                    </View>
+                    <View className="index.ChatButton">
+                        <View className="index.ChatIcon"></View>
+                    </View>
+                    <View className="index.CalendarButton">
+                        <View className="index.CalendarIcon"></View>
+                    </View>
+                </View>
+            </View>
         </View>
     );
 }
-

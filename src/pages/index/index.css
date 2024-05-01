@@ -1,59 +1,87 @@
-.page {
-    left: 0px;
-    top: 0px;
+.container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.box {
+    display: flex;
+    margin: 10px;
+}
+/* .page {
+  position: fixed;
+  width: calc(100vw);
+  height: calc(100vh);
+top: 0px;
 
+  border-radius: 52px;
+  opacity: 1;
+  z-index: -1;
+  background: url(image/PageBackground.png)
+} */
+.page {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: calc(100vw - 20px);
-    /* 减去左右边框的总宽度 */
     height: calc(100vh - 16px);
-    /* 减去上下边框的总高度 */
     border-radius: 52px;
     opacity: 1;
-
     background: #fff8e8;
-
     border-width: 4px 14px 12px 6px;
     border-style: solid;
     border-color: #000000;
+    z-index: -1;
 }
 
+/* .page {
+  position: fixed;
+  width: calc(100vw - 20px);
+  height: calc(100vh - 16px);
+  border-radius: 52px;
+  opacity: 1;
+
+  background: #fff8e8;
+
+  border-width: 4px 14px 12px 6px;
+  border-style: solid;
+  border-color: #000000;
+} */
+.backgroundLogo {
+    position: fixed;
+    right: 10px;
+    top: 0px;
+    width: 370px;
+    height: 458px;
+    mix-blend-mode: multiply;
+    opacity: 0.3;
+    background: url(image/Snap-logo.png);
+}
 .head {
-    position: absolute;
-    left: 55.74px;
-    top: 52.44px;
-    width: 265.22px;
-    height: 113.42px;
+    margin-left: 70px;
+    margin-top: 100px;
+    width: 173px;
+    height: 40px;
     opacity: 1;
-
-    font-family: Angkor;
-    font-size: 48px;
-    font-weight: normal;
-    line-height: normal;
-    letter-spacing: 0em;
-
-    font-variation-settings: "opsz" auto;
-    font-feature-settings: "kern" on;
-    color: #3d3d3d;
+    background: url(image/SNAP.png);
 }
 
 .banner {
-    position: absolute;
-    left: 24px;
-    top: 140px;
-    width: 590px;
-    height: 204px;
+    width: calc(100vw - 20px);
+    /* height: auto; */
+    height: 254px;
     opacity: 1;
-
+    background-size: cover;
     background: url(image/banner.png), rgba(255, 255, 255, 0.2);
-
+    background-size: 100% auto;
     box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.16);
 }
 
 .card {
-    position: absolute;
-    left: 75px;
-    top: 404px;
-    width: 590px;
-    height: 492px;
+    width: calc(100vw - 20px);
     border-radius: 18px;
     opacity: 1;
 
@@ -67,75 +95,42 @@
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
 }
 
-.backgroundLogo {
-    position: absolute;
-    right: 10px;
-    top: 0px;
-    width: 370px;
-    height: 458px;
-    mix-blend-mode: multiply;
-    opacity: 0.3;
-
-    background: url(image/Snap-logo.png);
-}
-
 .picture {
-    position: absolute;
-    left: 50px;
-    top: 42px;
-    width: 488px;
-    height: 304px;
+    width: 100%;
+    height: 350px;
     border-radius: 22px;
     opacity: 1;
-
     background: url(image/picture.png);
+    background-size: cover;
 }
-
-.ArrowLeft {
-    /* 方向一 */
-    position: absolute;
-    left: 2px;
-    top: 190px;
+/* .picture {
+   /* 宽度自适应容器 */
+/* border-radius: 22px;
+} */
+.arrowLeft {
     width: 48px;
     height: 48px;
     opacity: 1;
     background: url(image/方向一.png);
 }
 
-.ArrowRight {
-    /* 方向一 */
-
-    position: absolute;
-    left: 530px;
-    top: 185px;
+.arrowRight {
     width: 48px;
     height: 48px;
-    transform: rotate(180.3deg);
+    transform: rotate(180deg);
     opacity: 1;
 
     background: url(image/方向一.png);
 }
 
-.heart {
-    /* 路径 */
-
-    position: absolute;
-    left: 450px;
-    top: 350px;
+.likeIcon {
     width: 40px;
     height: 39px;
     opacity: 1;
-
     background: url(image/heart.png);
-
 }
 
-.star {
-    /* star-fill */
-
-    position: absolute;
-    left: 495px;
-    top: 345px;
+.starIcon {
     width: 48px;
     height: 48px;
     opacity: 1;
@@ -143,111 +138,129 @@
 }
 
 .user {
-    /* 圆形 1 */
-
-    position: absolute;
-    left: 50px;
-    top: 370px;
     width: 86px;
     height: 86px;
     opacity: 1;
 
     background: url(image/头像.png);
-
 }
 
 .username {
-    /* 困困233 */
-
-    position: absolute;
-    left: 170px;
-    top: 380px;
-    width: 122px;
-    height: 30px;
     opacity: 1;
 
-    background: url(image/username.png);
+    font-family: 思源黑体;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
 
+    font-feature-settings: "kern" on;
+    color: #848484;
 }
 
 .number {
-    position: absolute;
-    left: 165px;
-    top: 425px;
-    width: 152px;
-    height: 20px;
-    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
 
-    background: url(image/number.png);
+    font-feature-settings: "kern" on;
+    color: #848484;
 }
 
-.card2 {
-    position: absolute;
-    left: 75px;
-    top: 1100px;
-    width: 590px;
-    height: 492px;
-    border-radius: 18px;
+.BottomNavigation {
+    width: 640px;
+    height: 156px;
+    opacity: 1;
+
+    background: #fffefc;
+
+    border: 4px solid #000000;
+}
+.BottomNavigation2 {
+    width: 582px;
+    height: 112px;
+    border-radius: 34px;
     opacity: 1;
 
     background: #ffffff;
 
     box-sizing: border-box;
-    border-width: 4.8px 10px 8px 5px;
+    border-width: 4px 6px 6px 5px;
     border-style: solid;
-    border-color: #3d3d3d;
-
-    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+    border-color: #000000;
 }
-
-.ArrowLeft2 {
-    /* 方向一 */
-
-    position: absolute;
-    left: 1px;
-    top: 190px;
-    width: 48px;
-    height: 48px;
-    opacity: 1;
-    background: url(image/方向一.png);
-
-}
-
-.picture2 {
+.HomeIcon {
     position: absolute;
     left: 45px;
-    top: 45px;
-    width: 488px;
-    height: 304px;
-    border-radius: 22px;
+    top: 29px;
+    width: 5.63%;
+    height: 24.36%;
     opacity: 1;
 
-    background: url(image/picture2.png);
+    background: url(image/HomeIcon.png);
 }
+.Button {
+    width: 60px;
+    height: 36px;
+    border-radius: 24px;
+    opacity: 1;
+    background: #ffd500;
 
-.ArrowRight2 {
-    /* 方向一 */
-
+    box-sizing: border-box;
+    border-width: 2px 3px 3px 2.5px;
+    border-style: solid;
+    border-color: #000000;
+}
+.MomentsIcon {
     position: absolute;
-    left: 530px;
-    top: 190px;
-    width: 48px;
-    height: 48px;
-    transform: rotate(180.3deg);
+    left: 2px;
+    top: 2px;
+    width: 83.35%;
+    height: 83.33%;
     opacity: 1;
-
-    background: url(image/方向一.png);
+    background: url(image/MomentsIcon.png);
 }
-.card3{
-  /* 组 33 */
-
-position: absolute;
-left: 45px;
-top: 1450px;
-width: 650px;
-height: 166px;
-opacity: 1;
-	
-background: url(image/card3.png);
-	
+.MomentsButton {
+    position: absolute;
+    left: 115px;
+    top: 27px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+}
+.ChatIcon {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 83.33%;
+    height: 83.33%;
+    opacity: 1;
+    background: url(image/ChatIcon.png);
+}
+.ChatButton {
+    position: absolute;
+    left: 186px;
+    top: 27px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+}
+.CalendarIcon {
+    position: absolute;
+    left: 2px;
+    top: 0px;
+    width: 83.33%;
+    height: 83.33%;
+    opacity: 1;
+    background: url(image/CalendarIcon.png);
+}
+.CalendarButton {
+    position: absolute;
+    left: 257px;
+    top: 28px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
 }
