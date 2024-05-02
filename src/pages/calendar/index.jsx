@@ -39,7 +39,7 @@ function BottomNavigation() {
                     className="index.CalendarButton"
                     style={{ margin: "0px 10px 0px 10px" }}
                     onClick={() =>
-                        Taro.navigateTo({ url: "/pages/ index/index" })
+                        Taro.navigateTo({ url: "/pages/calendar/index" })
                     }
                 >
                     <View className="index.CalendarIcon"></View>

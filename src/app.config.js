@@ -1,8 +1,12 @@
 export default defineAppConfig({
-    pages: ["pages/index/index", "pages/calendar/index","pages/moments/index", "pages/home/index"],
-    // pages: ["pages/calendar/calendar"],
-    // pages: ["pages/moments/moments"],
-    // 
+    pages: [
+        "pages/index/index",
+        "pages/home/index",
+        "pages/calendar/index",
+        "pages/moments/index",
+        "pages/chatbox/index",
+        "pages/chatbox/chatroom/index",
+    ],
     window: {
         backgroundTextStyle: "light",
         navigationBarBackgroundColor: "#fff",

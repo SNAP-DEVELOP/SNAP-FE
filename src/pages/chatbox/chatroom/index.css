@@ -434,36 +434,37 @@ border-color: #000000; */
   /* 组 54 */
 
 position: absolute;
-width: 604px;
-height: 950px;
+left: 50px;
+top: 230px;
+width: 660px;
+height: 1025px;
 opacity: 1;
 	
 box-sizing: border-box;
-border: 2px solid #606060;
+
 background: url(image/dialog.png) no-repeat center center;
-background-size: cover;
+background-size: contain;
 }
 .head2{
   /* 矩形 144 */
-
-position: absolute;
-left: 0px;
-top: 0px;
-width: 640px;
-height: 102px;
+  position: fixed;
+left: 5px;
+top: 5px;
+width: calc(100vw - 18px);
+height: 180px;
 border-radius: 52px 52px 0px 0px;
 opacity: 1;
 	
 background: #FFD500;
-	
+
 }
 .text3 {
     /* SNAP 消息列表 */
 
     position: absolute;
-    left: 230px;
-    top: 14px;
-    width: 278px;
+    left: 220px;
+    top: 95px;
+    width: 378px;
     height: 58px;
     opacity: 1;
 
@@ -481,11 +482,8 @@ background: #FFD500;
 .backIcon {
     /* 路径 */
 
-    position: absolute;
-    left: 4px;
-    top: 2px;
-    width: 158.34%;
-    height: 166.66%;
+    width: 48px;
+    height: 48px;
     opacity: 1;
 
     background: url(image/backIcon.png) no-repeat center center;
@@ -495,8 +493,8 @@ background: #FFD500;
     /* arrow-go-back-fill */
 
     position: absolute;
-    left: 92px;
-    top: 16px;
+    left: 50px;
+    top: 95px;
     width: 48px;
     height: 48px;
     opacity: 1;
@@ -505,9 +503,9 @@ background: #FFD500;
   /* 矩形 154 */
 
 position: absolute;
-left: 0px;
-top: 1256px;
-width: 638px;
+left: 5px;
+bottom:20px;
+width: calc(100vw - 20px);
 height: 132px;
 border-radius: 0px 0px 48px 48px;
 opacity: 1;
@@ -519,8 +517,8 @@ background: #FFFFFF;
   /* 矩形 159 */
 
 position: absolute;
-left: 140px;
-top: 1296px;
+left: 200px;
+bottom:50px;
 width: 474px;
 height: 58px;
 opacity: 1;
@@ -535,8 +533,8 @@ border: 2px solid #606060;
   /* mic-fill */
 
 position: absolute;
-left: 30px;
-top: 1304px;
+left: 40px;
+bottom:50px;
 width: 48px;
 height: 48px;
 opacity: 1;
@@ -548,8 +546,8 @@ background-size: cover;
   /* emotion-2-fill */
 
 position: absolute;
-left: 80px;
-top: 1300px;
+left: 100px;
+bottom:50px;
 width: 48px;
 height: 48px;
 opacity: 1;
