@@ -63,6 +63,7 @@ export default function home() {
             <View className="index.container">
                 <View className="index.banner" />
             </View>
+
             <View className="index.container">
                 <View className="index.card">
                     <View
@@ -109,6 +110,197 @@ export default function home() {
                     </View>
                 </View>
             </View>
+            
+            <View className="index.container">
+                <View className="index.card">
+                    <View
+                        className="index.container"
+                        style={{ margin: "10px 0px 0px 0px" }}
+                    >
+                        <View className="index.arrowLeft"></View>
+                        <View className="index.picture2"></View>
+                        <View className="index.arrowRight"></View>
+                    </View>
+                    <View
+                        className="index.container"
+                        style={{
+                            margin: "5px 15px 0px 0px",
+                            justifyContent: "flex-end",
+                        }}
+                    >
+                        <View className="index.likeIcon" />
+                        <View className="index.starIcon" />
+                    </View>
+
+                    <View
+                        className="index.container"
+                        style="
+                            margin: 3px 15px 10px 15px;
+                            justify-content: space-between;
+                        "
+                    >
+                        <View className="box">
+                            <View
+                                className="index.avatar2"
+                                style={{ marginRight: "5px" }}
+                            ></View>
+                            <View>
+                                <View className="index.username">小美满</View>
+                                <View className="index.number">
+                                    累计获赞824
+                                </View>
+                            </View>
+                        </View>
+                        <View className="index.button">
+                            <View className="index.body7">找Ta拍</View>
+                        </View>
+                    </View>
+                </View>
+            </View>
+
+            <View className="index.container">
+                <View className="index.card">
+                    <View
+                        className="index.container"
+                        style={{ margin: "10px 0px 0px 0px" }}
+                    >
+                        <View className="index.arrowLeft"></View>
+                        <View className="index.picture3"></View>
+                        <View className="index.arrowRight"></View>
+                    </View>
+                    <View
+                        className="index.container"
+                        style={{
+                            margin: "5px 15px 0px 0px",
+                            justifyContent: "flex-end",
+                        }}
+                    >
+                        <View className="index.likeIcon" />
+                        <View className="index.starIcon" />
+                    </View>
+
+                    <View
+                        className="index.container"
+                        style="
+                            margin: 3px 15px 10px 15px;
+                            justify-content: space-between;
+                        "
+                    >
+                        <View className="box">
+                            <View
+                                className="index.avatar3"
+                                style={{ marginRight: "5px" }}
+                            ></View>
+                            <View>
+                                <View className="index.username">小王不吃香菜</View>
+                                <View className="index.number">
+                                    累计获赞3780
+                                </View>
+                            </View>
+                        </View>
+                        <View className="index.button">
+                            <View className="index.body7">找Ta拍</View>
+                        </View>
+                    </View>
+                </View>
+            </View>
+
+            <View className="index.container">
+                <View className="index.card">
+                    <View
+                        className="index.container"
+                        style={{ margin: "10px 0px 0px 0px" }}
+                    >
+                        <View className="index.arrowLeft"></View>
+                        <View className="index.picture4"></View>
+                        <View className="index.arrowRight"></View>
+                    </View>
+                    <View
+                        className="index.container"
+                        style={{
+                            margin: "5px 15px 0px 0px",
+                            justifyContent: "flex-end",
+                        }}
+                    >
+                        <View className="index.likeIcon" />
+                        <View className="index.starIcon" />
+                    </View>
+
+                    <View
+                        className="index.container"
+                        style="
+                            margin: 3px 15px 10px 15px;
+                            justify-content: space-between;
+                        "
+                    >
+                        <View className="box">
+                            <View
+                                className="index.avatar4"
+                                style={{ marginRight: "5px" }}
+                            ></View>
+                            <View>
+                                <View className="index.username">小羊呼呼睡</View>
+                                <View className="index.number">
+                                    累计获赞9980
+                                </View>
+                            </View>
+                        </View>
+                        <View className="index.button">
+                            <View className="index.body7">找Ta拍</View>
+                        </View>
+                    </View>
+                </View>
+            </View>
+
+            <View className="index.container">
+                <View className="index.card">
+                    <View
+                        className="index.container"
+                        style={{ margin: "10px 0px 0px 0px" }}
+                    >
+                        <View className="index.arrowLeft"></View>
+                        <View className="index.picture5"></View>
+                        <View className="index.arrowRight"></View>
+                    </View>
+                    <View
+                        className="index.container"
+                        style={{
+                            margin: "5px 15px 0px 0px",
+                            justifyContent: "flex-end",
+                        }}
+                    >
+                        <View className="index.likeIcon" />
+                        <View className="index.starIcon" />
+                    </View>
+
+                    <View
+                        className="index.container"
+                        style="
+                            margin: 3px 15px 10px 15px;
+                            justify-content: space-between;
+                        "
+                    >
+                        <View className="box">
+                            <View
+                                className="index.avatar5"
+                                style={{ marginRight: "5px" }}
+                            ></View>
+                            <View>
+                                <View className="index.username">我爱吃火锅</View>
+                                <View className="index.number">
+                                    累计获赞11279
+                                </View>
+                            </View>
+                        </View>
+                        <View className="index.button">
+                            <View className="index.body7">找Ta拍</View>
+                        </View>
+                    </View>
+                </View>
+            </View>
+
+
+
             <View className="index.container" style="margin-top:100px">
                 {" "}
             </View>
