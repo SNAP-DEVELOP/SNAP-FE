@@ -86,101 +86,32 @@ export default function home() {
 
                     <View
                         className="index.container"
-                        style={{
-                            margin: "3px 0px 10px 15px",
-                            justifyContent: "flex-start",
-                        }}
+                        style="
+                            margin: 3px 15px 10px 15px;
+                            justify-content: space-between;
+                        "
                     >
-                        <View
-                            className="index.avatar"
-                            style={{ marginRight: "5px" }}
-                        ></View>
-                        <View>
-                            <View className="index.username">困困233</View>
-                            <View className="index.number">累计获赞555377</View>
+                        <View className="box">
+                            <View
+                                className="index.avatar"
+                                style={{ marginRight: "5px" }}
+                            ></View>
+                            <View>
+                                <View className="index.username">困困233</View>
+                                <View className="index.number">
+                                    累计获赞555377
+                                </View>
+                            </View>
+                        </View>
+                        <View className="index.button">
+                            <View className="index.body7">找Ta拍</View>
                         </View>
                     </View>
                 </View>
             </View>
-            <View className="index.container">
-                <View className="index.card">
-                    <View
-                        className="index.container"
-                        style={{ margin: "10px 0px 0px 0px" }}
-                    >
-                        <View className="index.arrowLeft"></View>
-                        <View className="index.picture"></View>
-                        <View className="index.arrowRight"></View>
-                    </View>
-                    <View
-                        className="index.container"
-                        style={{
-                            margin: "5px 15px 0px 0px",
-                            justifyContent: "flex-end",
-                        }}
-                    >
-                        <View className="index.likeIcon" />
-                        <View className="index.starIcon" />
-                    </View>
-
-                    <View
-                        className="index.container"
-                        style={{
-                            margin: "3px 0px 10px 15px",
-                            justifyContent: "flex-start",
-                        }}
-                    >
-                        <View
-                            className="index.avatar"
-                            style={{ marginRight: "5px" }}
-                        ></View>
-                        <View>
-                            <View className="index.username">困困233</View>
-                            <View className="index.number">累计获赞555377</View>
-                        </View>
-                    </View>
-                </View>
+            <View className="index.container" style="margin-top:100px">
+                {" "}
             </View>
-            <View className="index.container">
-                <View className="index.card">
-                    <View
-                        className="index.container"
-                        style={{ margin: "10px 0px 0px 0px" }}
-                    >
-                        <View className="index.arrowLeft"></View>
-                        <View className="index.picture"></View>
-                        <View className="index.arrowRight"></View>
-                    </View>
-                    <View
-                        className="index.container"
-                        style={{
-                            margin: "5px 15px 0px 0px",
-                            justifyContent: "flex-end",
-                        }}
-                    >
-                        <View className="index.likeIcon" />
-                        <View className="index.starIcon" />
-                    </View>
-
-                    <View
-                        className="index.container"
-                        style={{
-                            margin: "3px 0px 10px 15px",
-                            justifyContent: "flex-start",
-                        }}
-                    >
-                        <View
-                            className="index.avatar"
-                            style={{ marginRight: "5px" }}
-                        ></View>
-                        <View>
-                            <View className="index.username">困困233</View>
-                            <View className="index.number">累计获赞555377</View>
-                        </View>
-                    </View>
-                </View>
-            </View>
-            <View className="index.container"style="margin-top:100px"> </View>
             <BottomNavigation />
         </View>
     );
