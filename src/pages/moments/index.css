@@ -341,17 +341,6 @@ color: rgba(61, 61, 61, 0.4);
     color: #848484;
 }
 
-.picture2 {
-    /* image */
-
-    width: 630px;
-    height: 406px;
-    border-radius: 11px;
-    opacity: 1;
-
-    background: url(image/picture2.png) no-repeat center center;
-    background-size: cover;
-}
 
 .AddNewMomentButton {
     position: fixed;
@@ -364,5 +353,70 @@ color: rgba(61, 61, 61, 0.4);
 
     background: url(image/AddNewMoment.png)no-repeat center center;
     background-size: cover;
+    z-index: 2;
+}
+.avatar2 {
+  width: 94px;
+  height: 94px;
+    opacity: 1;
+
+    background: url(image/Avator2.jpg) no-repeat center center;
+    background-size: cover;
 }
 
+
+.picture2 {
+  /* image */
+  position: relative;
+  width: 660px;
+  height: 412px;
+  border-radius: 34px;
+  opacity: 1;    
+
+  background: url(image/picture2.png) no-repeat center center;
+  background-size: cover;
+  z-index: 0; 
+}
+.avatar3 {
+  width: 94px;
+  height: 94px;
+    opacity: 1;
+
+    background: url(image/Avator3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+.picture3 {
+  /* image */
+  position: relative;
+  width: 660px;
+  height: 412px;
+  border-radius: 34px;
+  opacity: 1;    
+
+  background: url(image/picture3.jpg) no-repeat center center;
+  background-size: cover;
+  z-index: 0; 
+}
+.avatar4 {
+  width: 94px;
+  height: 94px;
+    opacity: 1;
+
+    background: url(image/Avator4.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.picture4 {
+  /* image */
+  position: relative;
+  width: 660px;
+  height: 412px;
+  border-radius: 34px;
+  opacity: 1;    
+
+  background: url(image/picture4.jpg) no-repeat center center;
+  background-size: cover;
+  z-index: 0; 
+}
