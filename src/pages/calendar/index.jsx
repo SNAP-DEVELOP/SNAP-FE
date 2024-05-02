@@ -152,6 +152,7 @@ export default function Calendar() {
                 className="index.container"
                 style="justify-content: space-between"
             >
+
                 <View className="index.albumCard">
                     <View className="index.box" Style="justify-content: center">
                         <View className="index.picture1"></View>
@@ -171,7 +172,119 @@ export default function Calendar() {
                         </View>
                     </View>
                 </View>
+
+                <View className="index.albumCard">
+                    <View className="index.box" Style="justify-content: center">
+                        <View className="index.picture2"></View>
+                    </View>
+                    <View
+                        className="index.box"
+                        style="margin: 5px 10px 5px 10px; align-items: center; justify-content: flex-end;"
+                    >
+                        <View className="index.Button">
+                            <View className="index.FavourIcon"></View>
+                        </View>
+                        <View className="index.Button">
+                            <View className="index.CommentIcon"></View>
+                        </View>
+                        <View className="index.Button">
+                            <View className="index.StarIcon"></View>
+                        </View>
+                    </View>
+                </View>
             </View>
+
+            <View
+                className="index.container"
+                style="justify-content: space-between"
+            >
+                <View className="index.albumCard">
+                    <View className="index.box" Style="justify-content: center">
+                        <View className="index.picture3"></View>
+                    </View>
+                    <View
+                        className="index.box"
+                        style="margin: 5px 10px 5px 10px; align-items: center; justify-content: flex-end;"
+                    >
+                        <View className="index.Button">
+                            <View className="index.FavourIcon"></View>
+                        </View>
+                        <View className="index.Button">
+                            <View className="index.CommentIcon"></View>
+                        </View>
+                        <View className="index.Button">
+                            <View className="index.StarIcon"></View>
+                        </View>
+                    </View>
+                </View>
+
+                <View className="index.albumCard">
+                    <View className="index.box" Style="justify-content: center">
+                        <View className="index.picture4"></View>
+                    </View>
+                    <View
+                        className="index.box"
+                        style="margin: 5px 10px 5px 10px; align-items: center; justify-content: flex-end;"
+                    >
+                        <View className="index.Button">
+                            <View className="index.FavourIcon"></View>
+                        </View>
+                        <View className="index.Button">
+                            <View className="index.CommentIcon"></View>
+                        </View>
+                        <View className="index.Button">
+                            <View className="index.StarIcon"></View>
+                        </View>
+                    </View>
+                </View>
+            </View>
+
+            <View
+                className="index.container"
+                style="justify-content: space-between"
+            >    
+                <View className="index.albumCard">
+                    <View className="index.box" Style="justify-content: center">
+                        <View className="index.picture5"></View>
+                    </View>
+                    <View
+                        className="index.box"
+                        style="margin: 5px 10px 5px 10px; align-items: center; justify-content: flex-end;"
+                    >
+                        <View className="index.Button">
+                            <View className="index.FavourIcon"></View>
+                        </View>
+                        <View className="index.Button">
+                            <View className="index.CommentIcon"></View>
+                        </View>
+                        <View className="index.Button">
+                            <View className="index.StarIcon"></View>
+                        </View>
+                    </View>
+                </View>
+
+                <View className="index.albumCard">
+                    <View className="index.box" Style="justify-content: center">
+                        <View className="index.picture6"></View>
+                    </View>
+                    <View
+                        className="index.box"
+                        style="margin: 5px 10px 5px 10px; align-items: center; justify-content: flex-end;"
+                    >
+                        <View className="index.Button">
+                            <View className="index.FavourIcon"></View>
+                        </View>
+                        <View className="index.Button">
+                            <View className="index.CommentIcon"></View>
+                        </View>
+                        <View className="index.Button">
+                            <View className="index.StarIcon"></View>
+                        </View>
+                    </View>
+                </View>
+
+            </View>
+            
             <View className="index.container" style="margin-top:100px"></View>
             <BottomNavigation />
         </View>
