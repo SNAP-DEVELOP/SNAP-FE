@@ -8,6 +8,8 @@ export default defineAppConfig({
         "pages/page1/index",
         "pages/page2/index",
         "pages/page3/index",
+        "pages/page4/index",
+        "pages/page5/index",
         "pages/chatbox/chatroom/index",
     ],
     window: {

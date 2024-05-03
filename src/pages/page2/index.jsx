@@ -100,7 +100,7 @@ export default function Photographer() {
                 className="index.button"
                 onClick={() => Taro.navigateTo({ url: "/pages/page3/index" })}
             ></View>
-            <View className="index.text13">下一步，选择日期</View>
+            <View className="index.text13"onClick={() => Taro.navigateTo({ url: "/pages/page3/index" })}>下一步，选择日期</View>
             <View className="index.circleGroup"></View>
             {/* <View className="index.card1"></View> */}
         </View>
