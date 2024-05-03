@@ -1,376 +1,576 @@
-.container {
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    margin-top: 40px;
-    margin-bottom: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
+.card4{
+  /* 矩形 272 */
+
+position: absolute;
+left: 84px;
+top: 880px;
+width: 726px;
+height: 950px;
+border-radius: 28px;
+opacity: 1;
+	
+background: #FFF8E8;
+	
+box-sizing: border-box;
+border-width: 4.8px 6px 6px 5px;
+border-style: solid;
+border-color: #3D3D3D;
+	
 }
-.box {
-    display: flex;
-    margin: 10px;
+.orderInformation{
+  /* 订单信息 */
+
+position: absolute;
+left: 364px;
+top: 904px;
+width: 196px;
+height: 68px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 40px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #000000;
+	
 }
-/* .page {
-  position: fixed;
-  width: calc(100vw);
-  height: calc(100vh);
-top: 0px;
+.name{
+  /* 您的昵称 */
 
-  border-radius: 52px;
-  opacity: 1;
-  z-index: -1;
-  background: url(image/PageBackground.png)
-} */
-.page {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: calc(100vw - 20px);
-    height: calc(100vh - 16px);
-    border-radius: 52px;
-    opacity: 1;
-    background: #fff8e8;
-    border-width: 4px 14px 12px 6px;
-    border-style: solid;
-    border-color: #000000;
-    z-index: -1;
+position: absolute;
+left: 154px;
+top: 1002px;
+width: 206px;
+height: 44px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 24px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #000000;
+	
 }
+.nameCard{
+  /* 矩形 275 */
 
-/* .page {
-  position: fixed;
-  width: calc(100vw - 20px);
-  height: calc(100vh - 16px);
-  border-radius: 52px;
-  opacity: 1;
-
-  background: #fff8e8;
-
-  border-width: 4px 14px 12px 6px;
-  border-style: solid;
-  border-color: #000000;
-} */
-.backgroundLogo {
-    position: fixed;
-    right: 10px;
-    top: 0px;
-    width: 370px;
-    height: 458px;
-    mix-blend-mode: multiply;
-    opacity: 0.3;
-    background: url(image/Snap-logo.png);
+position: absolute;
+left: 356px;
+top: 1002px;
+width: 362px;
+height: 42px;
+border-radius: 28px;
+opacity: 1;
+	
+background: #FFFFFF;
+	
+box-sizing: border-box;
+border: 2px solid #000000;
+	
 }
+.phone{
+  /* 您的电话 */
 
-.head {
-    margin-left: 70px;
-    margin-top: 100px;
-    width: 173px;
-    height: 40px;
-    opacity: 1;
-    background: url(image/SNAP.png) no-repeat center center;
-    background-size: cover;
+position: absolute;
+left: 154px;
+top: 1074px;
+width: 206px;
+height: 40px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 24px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #000000;
+	
 }
+.phoneCard{
+  /* 矩形 297 */
 
-.banner {
-    width: calc(100vw - 20px);
-    /* height: auto; */
-    height: 254px;
-    opacity: 1;
-    background-size: cover;
-    background: url(image/banner.png), rgba(255, 255, 255, 0.2);
-    background-size: 100% auto;
-    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.16);
+position: absolute;
+left: 356px;
+top: 1074px;
+width: 362px;
+height: 38px;
+border-radius: 28px;
+opacity: 1;
+	
+background: #FFFFFF;
+	
+box-sizing: border-box;
+border: 2px solid #000000;
+	
 }
+.number{
+  /* 约拍人数 */
 
-.card {
-    width: calc(100vw - 20px);
-    border-radius: 36px;
-    opacity: 1;
-
-    background: #ffffff;
-
-    box-sizing: border-box;
-    border-width: 4.8px 10px 8px 5px;
-    border-style: solid;
-    border-color: #3d3d3d;
-
-    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+position: absolute;
+left: 154px;
+top: 1142px;
+width: 206px;
+height: 40px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 24px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #000000;
+	
 }
+.numberCard{
+  /* 矩形 285 */
 
-.picture {
-    width: 100%;
-    height: 350px;
-    border-radius: 22px;
-    opacity: 1;
-    background: url(image/picture.png) no-repeat center center;
-    background-size: cover;
+position: absolute;
+left: 356px;
+top: 1142px;
+width: 362px;
+height: 38px;
+border-radius: 28px;
+opacity: 1;
+	
+background: #FFFFFF;
+	
+box-sizing: border-box;
+border: 2px solid #000000;
+	
 }
+.photographer{
+  /* 选定摄影师 */
 
-.arrowLeft {
-    width: 48px;
-    height: 48px;
-    opacity: 1;
-    background: url(image/方向一.png);
+position: absolute;
+left: 154px;
+top: 1214px;
+width: 206px;
+height: 40px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 24px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #000000;
+	
 }
+.photographerCard{
+  /* 矩形 251 */
 
-.arrowRight {
-    width: 48px;
-    height: 48px;
-    transform: rotate(180deg);
-    opacity: 1;
+position: absolute;
+left: 356px;
+top: 1214px;
+width: 362px;
+height: 38px;
+border-radius: 28px;
+opacity: 1;
+	
+background: #FFFFFF;
+	
+box-sizing: border-box;
+border: 2px solid #000000;
+	
+}
+.time{
+  /* 约拍时间 */
 
-    background: url(image/方向一.png);
+position: absolute;
+left: 154px;
+top: 1332px;
+width: 174px;
+height: 40px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 24px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #000000;
+	
 }
+.timeCard1{
+  /* 矩形 302 */
 
-.likeIcon {
-    width: 48px;
-    height: 46px;
-    opacity: 1;
-    background: url(image/heart.png) no-repeat center center;
-    background-size: contain;
-    margin: 2px;
+position: absolute;
+left: 356px;
+top: 1288px;
+width: 362px;
+height: 44px;
+border-radius: 28px;
+opacity: 1;
+	
+background: #FFFFFF;
+	
+box-sizing: border-box;
+border: 2px solid #000000;
+	
 }
+.timeText1{
+  /* 月份 */
 
-.starIcon {
-    width: 48px;
-    height: 48px;
-    opacity: 1;
-    background: url(image/star.png) no-repeat center center;
-    background-size: contain;
-    margin: 2px;
+position: absolute;
+left: 434px;
+top: 1300px;
+width: 52px;
+height: 28px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 18px;
+font-weight: normal;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #BEBEBE;
+	
 }
+.timeCard2{
+  /* 矩形 296 */
 
-.avatar {
-    width: 86px;
-    height: 86px;
-    opacity: 1;
+position: absolute;
+left: 356px;
+top: 1338px;
+width: 362px;
+height: 36px;
+border-radius: 28px;
+opacity: 1;
+	
+background: #FFFFFF;
+	
+box-sizing: border-box;
+border: 2px solid #000000;
+	
+}
+.timeText2{
+  /* *日期（可为空） */
 
-    background: url(image/头像.png) no-repeat center center;
-    background-size: cover;
+position: absolute;
+left: 422px;
+top: 1342px;
+width: 202px;
+height: 28px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 18px;
+font-weight: normal;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #BEBEBE;
+	
 }
+.timeCard3{
+  /* 矩形 252 */
 
-.username {
-    opacity: 1;
+position: absolute;
+left: 356px;
+top: 1380px;
+width: 362px;
+height: 38px;
+border-radius: 28px;
+opacity: 1;
+	
+background: #FFFFFF;
+	
+box-sizing: border-box;
+border: 2px solid #000000;
+	
+}
+.timeText3{
+  /* *时段（可为空） */
 
-    font-family: 思源黑体;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: normal;
-    letter-spacing: 0em;
+position: absolute;
+left: 422px;
+top: 1386px;
+width: 246px;
+height: 28px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 18px;
+font-weight: normal;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #BEBEBE;
+	
+}
+.card5{
+  /* 矩形 250 */
 
-    font-feature-settings: "kern" on;
-    color: #848484;
+position: absolute;
+left: 136px;
+top: 1456px;
+width: 622px;
+height: 238px;
+border-radius: 10px;
+opacity: 1;
+	
+box-sizing: border-box;
+border: 2px solid #000000;
+	
 }
+.orderFlow{
+  /* 成单流程 */
 
-.number {
-    font-family: 思源黑体;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: normal;
-    letter-spacing: 0em;
+position: absolute;
+left: 388px;
+top: 1466px;
+width: 132px;
+height: 38px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 24px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #000000;
+	
+}
+.step1{
+  /* 组 78 */
 
-    font-feature-settings: "kern" on;
-    color: #848484;
+position: absolute;
+left: 202px;
+top: 1534px;
+width: 78px;
+height: 68px;
+opacity: 1;
+	
+background: #00B578;
+	
 }
+.step2{
+  /* 组 77 */
 
+position: absolute;
+left: 344px;
+top: 1534px;
+width: 78px;
+height: 68px;
+border-radius: 52px;
+opacity: 1;
+	
+background: #B3B3B3;
+	
+}
+.step3{
+  /* 组 71 */
 
-.BottomNavigation {
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    /* width: 640px; */
-    width: calc(100vw);
+position: absolute;
+left: 486px;
+top: 1534px;
+width: 78px;
+height: 68px;
+border-radius: 52px;
+opacity: 1;
+	
+background: #B3B3B3;
+	
+}
+.step4{
+  /* 组 81 */
 
-    height: 156px;
-    opacity: 1;
+position: absolute;
+left: 628px;
+top: 1534px;
+width: 78px;
+height: 68px;
+border-radius: 52px;
+opacity: 1;
+	
+background: #B3B3B3;
+	
+}
+.line{
+  /* 直线 10 */
 
-    background: #fffefc;
+position: absolute;
+left: 280px;
+top: 1574px;
+width: 392px;
+height: 0px;
+opacity: 1;
+	
+border: 4px dashed #606060;
+	
+}
+.step1Text{
+  /* 选摄影师定档期 */
 
-    border: 4px solid #000000;
+position: absolute;
+left: 194px;
+top: 1618px;
+width: 88px;
+height: 18px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 16px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #000000;
+	
 }
-.BottomNavigation2 {
-    /* width: 582px; */
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    width: calc(100vw - 70px);
-    height: 112px;
-    border-radius: 34px;
-    opacity: 1;
-    background: #ffffff;
-    box-sizing: border-box;
-    border-width: 4px 6px 6px 5px;
-    border-style: solid;
-    border-color: #000000;
-}
-.HomeIcon {
-    width: 33.26%;
-    height: 58.72%;
-    opacity: 1;
-    background: url(image/HomeIcon.png) no-repeat center center;
-    background-size: cover;
-}
-.HomeButton {
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    width: 120px;
-    height: 72px;
-    border-radius: 48px;
-    opacity: 1;
-    background: #ffd500;
-    box-sizing: border-box;
-    border-width: 4px 6px 6px 5px;
-    border-style: solid;
-    border-color: #000000;
-}
-.MomentsIcon {
-    width: 40.26%;
-    height: 59.72%;
-    opacity: 1;
-    background: url(image/MomentsIcon.png) no-repeat center center;
-    background-size: cover;
-}
-.MomentsButton {
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    width: 120px;
-    height: 72px;
-    border-radius: 48px;
-    opacity: 1;
-    /* background: #FFD500;
-  box-sizing: border-box;
-  border-width: 4px 6px 6px 5px;
-  border-style: solid;
-  border-color: #000000; */
-}
-.ChatIcon {
-    width: 43.26%;
-    height: 58.72%;
-    opacity: 1;
-    background: url(image/ChatIcon.png) no-repeat center center;
-    background-size: cover;
-}
-.ChatButton {
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    width: 120px;
-    height: 72px;
-    border-radius: 48px;
-    opacity: 1;
-}
-.CalendarIcon {
-    width: 40.26%;
-    height: 58.72%;
-    opacity: 1;
-    background: url(image/CalendarIcon.png) no-repeat center center;
-    background-size: cover;
-}
-.CalendarButton {
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    width: 120px;
-    height: 72px;
-    border-radius: 48px;
-    opacity: 1;
-}
-.button {
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    width: 186px;
-    height: 64px;
-    border-radius: 36px;
-    opacity: 1;
+.step2Text{
+  /* 确认订单信息 */
 
-    background: #ffd500;
+position: absolute;
+left: 344px;
+top: 1618px;
+width: 78px;
+height: 18px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 16px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #7B7B7B;
+	
+}
+.step3Text{
+  /* 付定金 与摄影师沟通 */
 
-    box-sizing: border-box;
-    border-width: 4px 6px 6px 5px;
-    border-style: solid;
-    border-color: #3d3d3d;
+position: absolute;
+left: 460px;
+top: 1618px;
+width: 134px;
+height: 88px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 16px;
+font-weight: bold;
+line-height: normal;
+text-align: center;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #7B7B7B;
+	
 }
-.body7 {
-    /* 找Ta拍 */
-    opacity: 1;
+.step4Text{
+  /* 拍摄！ 退定收片 */
 
-    font-family: 思源黑体;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: normal;
-    letter-spacing: 0em;
+position: absolute;
+left: 610px;
+top: 1618px;
+width: 118px;
+height: 68px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 16px;
+font-weight: bold;
+line-height: normal;
+text-align: center;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #7B7B7B;
+	
+}
+.defineIcon{
+  /* 确认！一起咔嚓！ */
 
-    font-variation-settings: "opsz" auto;
-    font-feature-settings: "kern" on;
-    color: #3d3d3d;
+position: absolute;
+left: 246px;
+top: 1738px;
+width: 198px;
+height: 42px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 24px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #FFFFFF;
+	
 }
-.avatar2 {
-  width: 86px;
-  height: 86px;
-  opacity: 1;
+.defineButton{
+  /* 矩形 258 */
 
-  background: url(image/头像2.jpg) no-repeat center center;
-  background-size: cover;
+position: absolute;
+left: 136px;
+top: 1724px;
+width: 384px;
+height: 72px;
+border-radius: 52px;
+opacity: 1;
+	
+background: #886A0B;
+	
+box-sizing: border-box;
+border-width: 4px 6px 6px 5px;
+border-style: solid;
+border-color: #3D3D3D;
+	
 }
-.picture2 {
-  width: 100%;
-  height: 350px;
-  border-radius: 22px;
-  opacity: 1;
-  background: url(image/picture2.jpg) no-repeat center center;
-  background-size: cover;
-}
-.avatar3 {
-  width: 86px;
-  height: 86px;
-  opacity: 1;
+.backchangeIcon{
+  /* 返回修改 */
 
-  background: url(image/头像3.jpg) no-repeat center center;
-  background-size: cover;
+position: absolute;
+left: 604px;
+top: 1738px;
+width: 102px;
+height: 42px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 24px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #FFFFFF;
+	
 }
-.picture3 {
-  width: 100%;
-  height: 350px;
-  border-radius: 22px;
-  opacity: 1;
-  background: url(image/picture3.png) no-repeat center center;
-  background-size: cover;
-}
-.avatar4 {
-  width: 86px;
-  height: 86px;
-  opacity: 1;
+.backchangeButton{
+  /* 矩形 274 */
 
-  background: url(image/头像4.jpg) no-repeat center center;
-  background-size: cover;
-}
-.picture4 {
-  width: 100%;
-  height: 350px;
-  border-radius: 22px;
-  opacity: 1;
-  background: url(image/picture4.jpg) no-repeat center center;
-  background-size: cover;
-}
-.avatar5 {
-  width: 86px;
-  height: 86px;
-  opacity: 1;
-
-  background: url(image/头像5.jpg) no-repeat center center;
-  background-size: cover;
-}
-.picture5 {
-  width: 100%;
-  height: 350px;
-  border-radius: 22px;
-  opacity: 1;
-  background: url(image/picture5.jpg) no-repeat center center;
-  background-size: cover;
+position: absolute;
+left: 536px;
+top: 1724px;
+width: 222px;
+height: 72px;
+border-radius: 52px;
+opacity: 1;
+	
+background: rgba(136, 106, 11, 0.5);
+	
 }
