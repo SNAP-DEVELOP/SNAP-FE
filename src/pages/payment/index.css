@@ -1,0 +1,161 @@
+.payMessage{
+  /* 定金支付成功 */
+
+position: absolute;
+width: 382px;
+height: 88px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 60px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #3D3D3D;
+	
+}
+.payText{
+  /* 芜湖！记录回忆倒计时 */
+
+position: absolute;
+width: 432px;
+height: 56px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 40px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #FFFFFF;
+	
+text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+	
+}
+.picture{
+  /* image */
+
+position: absolute;
+width: 624px;
+height: 412px;
+mix-blend-mode: multiply;
+opacity: 1;
+	
+background: url(image/picture.png);
+	
+}
+.linkgroupIcon{
+  /* 去和摄影师群内沟通 */
+
+position: absolute;
+width: 288px;
+height: 46px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 32px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #FFFFFF;
+	
+}
+.linkgroupButton{
+  /* 矩形 136 */
+
+position: absolute;
+width: 468px;
+height: 108px;
+border-radius: 52px;
+opacity: 1;
+	
+background: #FFD500;
+	
+box-sizing: border-box;
+border: 4px solid #3D3D3D;
+	
+}
+.reserveIcon{
+  /* 预定妆造/道具 */
+
+position: absolute;
+width: 206px;
+height: 46px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 32px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #FFFFFF;
+	
+}
+.reserveButton{
+  /* 矩形 137 */
+
+position: absolute;
+width: 468px;
+height: 108px;
+border-radius: 52px;
+opacity: 1;
+	
+background: #FFD500;
+	
+box-sizing: border-box;
+border: 4px solid #3D3D3D;
+	
+}
+.backIcon{
+  /* 返回主页 */
+
+position: absolute;
+width: 128px;
+height: 46px;
+opacity: 1;
+	
+font-family: 思源黑体;
+font-size: 32px;
+font-weight: bold;
+line-height: normal;
+letter-spacing: 0em;
+	
+font-feature-settings: "kern" on;
+color: #FFFFFF;
+	
+}
+.backButton{
+  /* 矩形 138 */
+
+position: absolute;
+width: 468px;
+height: 108px;
+border-radius: 52px;
+opacity: 1;
+	
+background: #FFD500;
+	
+box-sizing: border-box;
+border: 4px solid #3D3D3D;
+	
+}
+.snapLogo{
+  /* 未命名作品 4 */
+
+position: absolute;
+width: 374px;
+height: 378px;
+mix-blend-mode: multiply;
+opacity: 0.3;
+	
+background: url(image/snapLogo.png);
+	
+}
