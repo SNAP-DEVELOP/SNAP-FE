@@ -17,7 +17,7 @@ export default function Photographer() {
                 <View
                     className="index.backButton"
                     onClick={() =>
-                        Taro.navigateTo({ url: "/pages/page2/index" })
+                        Taro.navigateTo({ url: "/pages/page3/index" })
                     }
                 >
                     <View className="index.backIcon"></View>
@@ -26,11 +26,11 @@ export default function Photographer() {
             <View className="index.backgroundPicture"></View>
             <View className="index.card1"></View>
             <View className="index.text1">三步完成你的预定</View>
-            <View className="index.text2">STEP 2</View>
+            <View className="index.text2">STEP 3</View>
            
             <View
                 className="index.button"
-                onClick={() => Taro.navigateTo({ url: "/pages/page4/index" })}
+                onClick={() => Taro.navigateTo({ url: "/pages/page5/index" })}
             ></View>
             <View className="index.text13">下一步，选择日期</View>
             <View className="index.circleGroup"></View>
