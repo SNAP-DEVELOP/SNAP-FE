@@ -1,0 +1,585 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.box {
+    display: flex;
+    margin: 10px;
+}
+
+.page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 16px);
+    border-radius: 52px;
+    opacity: 1;
+    background: #fff8e8;
+    border-width: 4px 14px 12px 6px;
+    border-style: solid;
+    border-color: #000000;
+    z-index: -1;
+}
+
+.backgroundLogo {
+    position: fixed;
+    right: 10px;
+    top: 950px;
+    bottom: 0px;
+    width: 370px;
+    height: 458px;
+    mix-blend-mode: multiply;
+    opacity: 0.3;
+    background: url(image/Snap-logo.png) no-repeat center center;
+    background-size: cover;
+}
+.head2 {
+    /* 矩形 144 */
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    width: calc(100vw - 18px);
+    height: 190px;
+    border-radius: 52px 52px 0px 0px;
+    opacity: 1;
+
+    background: #ffd500;
+}
+
+.backIcon {
+    /* 路径 */
+
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+
+    background: url(image/backIcon.png) no-repeat center center;
+    background-size: cover;
+}
+.backButton {
+    /* arrow-go-back-fill */
+
+    position: absolute;
+    left: 50px;
+    top: 95px;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+}
+
+.backgroundPicture {
+    /* 矩形 301 */
+
+    position: absolute;
+    left: 5px;
+    top: 120px;
+    width: 732px;
+    height: 694px;
+    opacity: 1;
+
+    background: url(image/backgroundPicture.png) no-repeat center center;
+    background-size: contain;
+}
+.card1 {
+    /* 矩形 292 */
+
+    position: absolute;
+    left: 6px;
+    bottom: 10px;
+    width: 734px;
+    height: 954px;
+    transform: rotate(180deg);
+    opacity: 1;
+
+    background: rgba(255, 213, 0, 0.8);
+
+    box-sizing: border-box;
+    border: 8px solid #3d3d3d;
+    border-radius: 0px 0px 36px 36px;
+
+    backdrop-filter: blur(20px);
+}
+.text1 {
+    /* 三步完成你的预定 */
+    position: absolute;
+    left: 90px; /* 原始值为 50px，加上 40 后为 90px */
+    top: 704px; /* 原始值为 684px，加上 80 后为 724px */
+    width: 662px;
+    height: 82px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.text2 {
+    /* STEP 1 */
+    position: absolute;
+    left: 116px; /* 原始值为 76px，加上 40 后为 116px */
+    top: 776px; /* 原始值为 776px，加上 80 后为 796px */
+    width: 494px;
+    height: 82px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.button {
+    /* 矩形 245 */
+    position: absolute;
+    left: 232px; /* 原始值为 192px，加上 40 后为 232px */
+    top: 1390px;
+    width: 288px;
+    height: 56px;
+    border-radius: 52px;
+    opacity: 1;
+    background: #886a0b;
+    box-sizing: border-box;
+    border-width: 4px 6px 6px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+}
+.card4 {
+    position: absolute;
+    left: 71.4px;
+    top: 841.18px; /* 631.18px + 210px */
+    width: 604.66px;
+    height: 726.68px;
+    border-radius: 28px;
+    opacity: 1;
+    background: #fff8e8;
+    box-sizing: border-box;
+    border-width: 4.8px 6px 6px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+}
+
+.slot {
+    position: absolute;
+    left: 102.64px;
+    top: 880.78px; /* 670.78px + 210px */
+    width: 285.6px;
+    height: 67.54px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #000000;
+}
+
+.month {
+    position: absolute;
+    left: 111.56px;
+    top: 966.96px; /* 756.96px + 210px */
+    width: 120.48px;
+    height: 38px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #000000;
+}
+
+.card5 {
+    position: absolute;
+    left: 283.36px;
+    top: 971.62px; /* 761.62px + 210px */
+    width: 225.36px;
+    height: 44.26px;
+    border-radius: 4px;
+    opacity: 1;
+    background: rgba(255, 213, 0, 0.5);
+    box-sizing: border-box;
+    border: 2px solid #acacac;
+}
+
+.monthSelect {
+    position: absolute;
+    left: 292.28px;
+    top: 983.26px; /* 773.26px + 210px */
+    width: 33.46px;
+    height: 27.94px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #3d3d3d;
+}
+
+.line {
+    position: absolute;
+    left: 328.06px;
+    top: 992px; /* 782px + 210px */
+    width: 30.28px;
+    height: 0px;
+    transform: rotate(90deg);
+    opacity: 1;
+    border: 2px solid #d8d8d8;
+}
+
+.monthText {
+    position: absolute;
+    left: 368.16px;
+    top: 995.6px; /* 775.6px + 210px */
+    width: 93.72px;
+    height: 20.96px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #000000;
+}
+
+.select1 {
+    position: absolute;
+    left: 467.56px;
+    top: 994.22px; /* 774.22px + 210px */
+    width: 17.84px;
+    height: 18.64px;
+    border-radius: 2px;
+    opacity: 1;
+    background: url(image/select1.png) no-repeat center center;
+    background-size: contain;
+}
+
+.date {
+    position: absolute;
+    left: 113.8px;
+    top: 1043.82px; /* 833.82px + 210px */
+    width: 120.48px;
+    height: 37.26px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #000000;
+}
+
+.dateExplain {
+    position: absolute;
+    left: 118.26px;
+    top: 1106.7px; /* 896.7px + 210px */
+    width: 383.76px;
+    height: 55.9px;
+    opacity: 1;
+    font-family: Source Han Sans;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #9f9f9f;
+}
+
+.card6 {
+    position: absolute;
+    left: 118.26px;
+    top: 1181.24px; /* 971.24px + 210px */
+    width: 283.36px;
+    height: 265.52px;
+    border-radius: 10px;
+    opacity: 1;
+    box-sizing: border-box;
+    border: 2px solid #3d3d3d;
+}
+
+.date2 {
+    position: absolute;
+    left: 133.88px;
+    top: 1192.88px; /* 982.88px + 210px */
+    width: 87.02px;
+    height: 32.6px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #000000;
+}
+
+.background {
+    position: absolute;
+    left: 138.34px;
+    top: 1202.2px; /* 992.2px + 210px */
+    width: 245.44px;
+    height: 235.24px;
+    opacity: 1;
+    background: url(image/background.png) no-repeat center center;
+    background-size: contain;
+}
+
+.snapLogo {
+    position: absolute;
+    left: 187.42px;
+    top: 1241.8px; /* 1031.8px + 210px */
+    width: 153.96px;
+    height: 146.74px;
+    mix-blend-mode: multiply;
+    opacity: 0.3;
+    background: url(image/Snap-logo.png) no-repeat center center;
+    background-size: cover;
+    filter: opacity(0.800000011920929);
+}
+
+.card7 {
+    position: absolute;
+    left: 419.46px;
+    top: 1181.24px; /* 971.24px + 210px */
+    width: 214.2px;
+    height: 123.44px;
+    border-radius: 10px;
+    opacity: 1;
+    box-sizing: border-box;
+    border: 2px solid #3d3d3d;
+}
+
+.time {
+    position: absolute;
+    left: 435.08px;
+    top: 1192.88px; /* 982.88px + 210px */
+    width: 187.42px;
+    height: 32.6px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #696969;
+}
+
+.card8 {
+    position: absolute;
+    left: 435.08px;
+    top: 1239.46px; /* 1029.46px + 210px */
+    width: 178.5px;
+    height: 44.26px;
+    border-radius: 4px;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border: 2px solid #3d3d3d;
+}
+.timeSelect {
+    position: absolute;
+    left: 448.48px;
+    top: 1251.78px; /* 1041.78px + 210px */
+    width: 24.54px;
+    height: 23.3px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #3d3d3d;
+}
+
+.line2 {
+    position: absolute;
+    left: 468.64px;
+    top: 1260.46px; /* 1050.46px + 210px */
+    width: 30.28px;
+    height: 0px;
+    transform: rotate(90deg);
+    opacity: 1;
+    border: 2px solid #000000;
+}
+
+.timeText {
+    position: absolute;
+    left: 499.8px;
+    top: 1263.12px; /* 1043.12px + 210px */
+    width: 58.02px;
+    height: 20.96px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #787878;
+}
+
+.select2 {
+    position: absolute;
+    left: 549.8px;
+    top: 1263.12px; /* 1043.12px + 210px */
+    width: 17.84px;
+    height: 18.64px;
+    border-radius: 2px;
+    opacity: 1;
+    background: url(image/select2.png) no-repeat center center;
+    background-size: contain;
+}
+
+.weather {
+    position: absolute;
+    left: 426.16px;
+    top: 1340.3px; /* 1120.3px + 210px */
+    width: 187.42px;
+    height: 32.6px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #696969;
+}
+
+.weatherSymbol {
+    position: absolute;
+    left: 562.26px;
+    top: 1337.98px; /* 1117.98px + 210px */
+    width: 33.46px;
+    height: 34.94px;
+    opacity: 1;
+    background: url(image/weatherSymbol.png) no-repeat center center;
+    background-size: contain;
+}
+
+.temperature {
+    position: absolute;
+    left: 609.12px;
+    top: 1340.3px; /* 1120.3px + 210px */
+    width: 33.46px;
+    height: 32.6px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #696969;
+}
+
+.reserveIcon {
+    position: absolute;
+    left: 470.08px;
+    top: 1397.84px; /* 1187.84px + 210px */
+    width: 187.42px;
+    height: 32.6px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.reserveButton {
+    position: absolute;
+    left: 419.46px;
+    top: 1381.54px; /* 1171.54px + 210px */
+    width: 216.42px;
+    height: 65.22px;
+    border-radius: 52px;
+    opacity: 1;
+    background: #886a0b;
+    box-sizing: border-box;
+    border-width: 4px 6px 6px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+}
+
+.defineIcon {
+    position: absolute;
+    left: 196.26px;
+    top: 1483.36px; /* 1273.36px + 210px */
+    width: 214.2px;
+    height: 39.6px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.defineButton {
+    position: absolute;
+    left: 113.8px;
+    top: 1467.72px; /* 1257.72px + 210px */
+    width: 321.3px;
+    height: 65.22px;
+    border-radius: 52px;
+    opacity: 1;
+    background: #886a0b;
+    box-sizing: border-box;
+    border-width: 4px 6px 6px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+}
+
+.backchangeIcon {
+    position: absolute;
+    left: 513.64px;
+    top: 1483.36px; /* 1273.36px + 210px */
+    width: 107.1px;
+    height: 39.6px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.backchangeButton {
+    position: absolute;
+    left: 448.48px;
+    top: 1467.72px; /* 1257.72px + 210px */
+    width: 185.2px;
+    height: 65.22px;
+    border-radius: 52px;
+    opacity: 1;
+    background: rgba(136, 106, 11, 0.5);
+}

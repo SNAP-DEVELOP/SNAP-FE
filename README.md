@@ -1,6 +1,6 @@
 # SNAP-FE
 
-前端目前采用的是 React + Taro 框架，UI部分调用taro-UI库
+前端目前采用的是 React + Taro 框架
 
 ### 部署流程
 
@@ -46,19 +46,7 @@ clone到本地，cd到`SNAP-FE`目录
 
 #### Step 5
 
-配置taro-UI
-输入`npm install taro-ui`进行安装
-
-> 我在这部分配置的时候遇到了问题，我还进行了`npm i --D @tarojs/plugin-sass`的配置，给taro配置sass，但这部分的安装我没有成功，跑了一半就报错了，不知道这一步有没有起作用
-
-taro-ui可以进行全局的自定义主题，我们后面参考这个文档，修改主题配色等，适配我们的产品->[自定义主题配置](https://taro-ui.jd.com/#/docs/customizetheme)
-
-##### taro-ui的使用
-
-1. 要在程序入口的文件添加`import "taro-ui/dist/style/index.scss";`（我已经完成啦，后面的程序都不用考虑这一步啦）
-2. 在每个页面最顶上import这个页面使用的taro-ui库，如：`import { AtButton } from "taro-ui";`具体可以参考一下`src\pages\index\index.jsx`里简单的使用~
-
-##### settings.json
+配置 settings.json
 
 在vscode的settings.json里完成如下配置，复制粘贴进去即可
 （如果不想改全局配置，也可以把`SNAP-FE`存为workspace，改workspace的settings）

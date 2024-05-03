@@ -1,0 +1,184 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.box {
+    display: flex;
+    margin: 10px;
+}
+
+.page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 16px);
+    border-radius: 52px;
+    opacity: 1;
+    background: #fff8e8;
+    border-width: 4px 14px 12px 6px;
+    border-style: solid;
+    border-color: #000000;
+    z-index: -1;
+}
+.head {
+    margin-left: 70px;
+    margin-top: 100px;
+    width: 173px;
+    height: 40px;
+    opacity: 1;
+    background: url(image/SNAP.png) no-repeat center center;
+    background-size: cover;
+}
+.backgroundLogo {
+    position: fixed;
+    right: 10px;
+    top: 950px;
+    bottom: 0px;
+    width: 370px;
+    height: 458px;
+    mix-blend-mode: multiply;
+    opacity: 0.3;
+    /*
+position: absolute;
+left: 286px;
+top: 926px;
+width: 370px;
+height: 458px;
+mix-blend-mode: multiply;
+opacity: 0.3;
+	 */
+    background: url(image/Snap-logo.png) no-repeat center center;
+    background-size: cover;
+}
+
+.dialog {
+    /* 组 54 */
+
+    position: absolute;
+    left: 50px;
+    top: 230px;
+    width: 660px;
+    height: 1025px;
+    opacity: 1;
+
+    box-sizing: border-box;
+
+    background: url(image/dialog.png) no-repeat center center;
+    background-size: contain;
+}
+.head2 {
+    /* 矩形 144 */
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    width: calc(100vw - 18px);
+    height: 180px;
+    border-radius: 52px 52px 0px 0px;
+    opacity: 1;
+
+    background: #ffd500;
+}
+.text3 {
+    /* SNAP 消息列表 */
+
+    position: absolute;
+    left: 220px;
+    top: 95px;
+    width: 378px;
+    height: 58px;
+    opacity: 1;
+
+    font-family: 思源黑体;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+
+    text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+.backIcon {
+    /* 路径 */
+
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+
+    background: url(image/backIcon.png) no-repeat center center;
+    background-size: cover;
+}
+.backButton {
+    /* arrow-go-back-fill */
+
+    position: absolute;
+    left: 50px;
+    top: 95px;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+}
+.bottomBar {
+    /* 矩形 154 */
+
+    position: absolute;
+    left: 5px;
+    bottom: 20px;
+    width: calc(100vw - 20px);
+    height: 132px;
+    border-radius: 0px 0px 48px 48px;
+    opacity: 1;
+
+    background: #ffffff;
+}
+.textSpace {
+    /* 矩形 159 */
+
+    position: absolute;
+    left: 200px;
+    bottom: 50px;
+    width: 474px;
+    height: 58px;
+    opacity: 1;
+
+    background: #ffffff;
+
+    box-sizing: border-box;
+    border: 2px solid #606060;
+}
+.micIcon {
+    /* mic-fill */
+
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+
+    background: url(image/micIcon.png) no-repeat center center;
+    background-size: cover;
+}
+.emojyIcon {
+    /* emotion-2-fill */
+
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+
+    background: url(image/emojyIcon.png) no-repeat center center;
+    background-size: cover;
+}

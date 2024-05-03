@@ -1,0 +1,188 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.box {
+    display: flex;
+    margin: 10px;
+}
+
+.page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 16px);
+    border-radius: 52px;
+    opacity: 1;
+    background: #fff8e8;
+    border-width: 4px 14px 12px 6px;
+    border-style: solid;
+    border-color: #000000;
+    z-index: -1;
+}
+
+.backgroundLogo {
+    position: fixed;
+    right: 10px;
+    top: 950px;
+    bottom: 0px;
+    width: 370px;
+    height: 458px;
+    mix-blend-mode: multiply;
+    opacity: 0.3;
+    /*
+position: absolute;
+left: 286px;
+top: 926px;
+width: 370px;
+height: 458px;
+mix-blend-mode: multiply;
+opacity: 0.3;
+*/
+    background: url(image/Snap-logo.png) no-repeat center center;
+    background-size: cover;
+}
+.head2 {
+    /* 矩形 144 */
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    width: calc(100vw - 18px);
+    height: 180px;
+    border-radius: 52px 52px 0px 0px;
+    opacity: 1;
+
+    background: #ffd500;
+}
+
+.backIcon {
+    /* 路径 */
+
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+
+    background: url(image/backIcon.png) no-repeat center center;
+    background-size: cover;
+}
+.backButton {
+    /* arrow-go-back-fill */
+
+    position: absolute;
+    left: 50px;
+    top: 95px;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+}
+
+.photographerProfile {
+    /* 4-困困  */
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 694px;
+    height: 1272px;
+    opacity: 1;
+    background: url(image/photographerProfile.png) no-repeat center center;
+    background-size: contain;
+}
+
+.card2 {
+    /* 矩形 41 */ /* 矩形 41 */
+
+    position: fixed;
+    left: 5px;
+    bottom: 10px;
+    width: calc(100vw - 18px);
+    height: 146px;
+    border-radius: 52px;
+    opacity: 1;
+
+    background: rgba(255, 213, 0, 0.85);
+
+    /*
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  width: 664px;
+  height: 146px;
+  border-radius: 52px;
+  opacity: 1;
+
+  background: rgba(255, 213, 0, 0.85); */
+}
+
+.reserveIcon {
+    /* 立即预定 */
+
+    /* position: absolute; */
+    width: 136px;
+    height: 50px;
+    opacity: 1;
+
+    font-family: 思源黑体;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.reserveButton {
+    /* 矩形 42 */
+
+    width: 412px;
+    height: 82px;
+    border-radius: 52px;
+    opacity: 1;
+
+    background: #886a0b;
+
+    box-sizing: border-box;
+    border-width: 4px 6px 6px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+}
+
+.collectIcon {
+    /* 收藏 */
+
+    opacity: 1;
+
+    font-family: 思源黑体;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.collectButton {
+    /* 矩形 43 */
+
+    width: 182px;
+    height: 82px;
+    border-radius: 52px;
+    opacity: 1;
+
+    background: #886a0b;
+
+    box-sizing: border-box;
+    border-width: 4px 6px 6px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+}
