@@ -47,8 +47,8 @@ export default function Photographer() {
                     className="index.container"
                     style="display: flex; justify-content: space-between;margin-top:0px;margin-bottom:5px"
                 >
-                    <View className="index.cancelButton"></View>
-                    <View className="index.confirmButton"></View>
+                    <View className="index.cancelButton"><View className="index.cancelText">取消</View></View>
+                    <View className="index.confirmButton"><View className="index.confirmText">确定并付定金</View></View>
                 </View>
             </View>
             <View

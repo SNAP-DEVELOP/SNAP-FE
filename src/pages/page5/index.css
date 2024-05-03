@@ -851,25 +851,82 @@
 
     z-index: 0;
 }
-.confirmButton {
-    /* 大/填充/无图标/无下拉 */
+.cancelText{
+  /* Text */
 
-    /* 自动布局子元素 */
-    position: static;
-    left: 390px;
-    top: 32px;
-    width: 288px;
-    height: 96px;
-    opacity: 1;
-
-    /* 自动布局 */
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-
-    z-index: 1;
+/* 自动布局子元素 */
+position: static;
+left: 32px;
+top: 24px;
+width: 64px;
+height: 48px;
+opacity: 1;
+	
+/* 中文 /按钮/按钮文本 */
+/* 样式描述：中文 */
+font-family: 思源黑体;
+font-size: 32px;
+font-weight: normal;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0px;
+	
+/* 主要色/主要色 */
+color: #0256FF;
+	
+z-index: 1;
 }
+.confirmButton {
+/* _Base/Button */
 
+/* 自动布局子元素 */
+position: static;
+left: 0px;
+top: 0px;
+width: 288px;
+height: 96px;
+border-radius: 16px;
+opacity: 1;
+	
+/* 自动布局 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 16px;
+flex-grow: 1;
+	
+/* 主要色/主要色 */
+background: #0256FF;
+	
+z-index: 0;
+}
+.confirmText{
+  /* Text */
+
+/* 自动布局子元素 */
+position: static;
+left: 17px;
+top: 24px;
+width: 254px;
+height: 48px;
+opacity: 1;
+	
+/* 中文 /按钮/按钮文本 */
+/* 样式描述：中文 */
+font-family: 思源黑体;
+font-size: 32px;
+font-weight: normal;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0px;
+	
+/* 纯白 */
+color: #FFFFFF;
+	
+z-index: 1;
+}
 .button {
     /* 矩形 245 */
     position: absolute;
