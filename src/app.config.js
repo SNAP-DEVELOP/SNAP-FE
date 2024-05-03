@@ -10,6 +10,8 @@ export default defineAppConfig({
         "pages/page3/index",
         "pages/page4/index",
         "pages/page5/index",
+        "pages/page6/index",
+        "pages/payment/index",
         "pages/chatbox/chatroom/index",
     ],
     window: {

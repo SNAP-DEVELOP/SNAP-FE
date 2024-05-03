@@ -61,46 +61,9 @@ export default function Photographer() {
 
             <View className="index.backchangeIcon">返回修改</View>
 
-            <View className="index.modal">
-                <View
-                    className="index.container"
-                    style="display: flex; justify-content: space-between;margin-bottom:5px"
-                >
-                    <View className="index.warningIcon"></View>
-                    <View className="index.title">Snap协议</View>
-                    <View className="index.closeIcon"></View>
-                </View>
-                <View
-                    className="index.container"
-                    style="margin-top:0px;margin-bottom:5px"
-                >
-                    <View className="index.modalText">
-                        MG 和国内各行业头部企业达成深度共创，MG
-                        会为共创企业提供专项迁移支持和专属定制化服务，在实现以用户为导向的产品迭代的过程中，为设计师打造性能更高、产品体验更好的设计软件。
-                    </View>
-                </View>
-                <View
-                    className="index.container"
-                    style="display: flex; justify-content: space-between;margin-left:50px;margin-right:50px"
-                >
-                    <View
-                        className="index.cancelButton"
-                        onClick={() =>
-                            Taro.navigateTo({ url: "/pages/page4/index" })
-                        }
-                    >
-                        <View className="index.cancelText">取消</View>
-                    </View>
-                    <View
-                        className="index.confirmButton"
-                        onClick={() =>
-                            Taro.navigateTo({ url: "/pages/page6/index" })
-                        }
-                    >
-                        <View className="index.confirmText">确定并付定金</View>
-                    </View>
-                </View>
-            </View>
+            <View className="index.pay"onClick={() =>
+                        Taro.navigateTo({ url: "/pages/payment/index" })
+                    }></View>
             <View
                 className="index.button"
                 onClick={() => Taro.navigateTo({ url: "/pages/page6/index" })}
