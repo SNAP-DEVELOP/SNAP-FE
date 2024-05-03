@@ -5,6 +5,9 @@ export default defineAppConfig({
         "pages/calendar/index",
         "pages/moments/index",
         "pages/chatbox/index",
+        "pages/page1/index",
+        "pages/page2/index",
+        "pages/page3/index",
         "pages/chatbox/chatroom/index",
     ],
     window: {

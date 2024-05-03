@@ -123,7 +123,7 @@ export default function Moments() {
                     </View>
                 </View>
             </View>
-            
+
             <View className="index.container">
                 <View className="index.cardWrap">
                     <View className="index.box" Style="justify-content: center">
@@ -200,12 +200,12 @@ export default function Moments() {
                         <View>
                             <View className="index.Button">
                                 <View className="index.FavourIcon"></View>
-                            </View>{" "}
+                            </View>
                         </View>
                         <View>
                             <View className="index.Button">
                                 <View className="index.CommentIcon"></View>
-                            </View>{" "}
+                            </View>
                         </View>
                         <View>
                             <View className="index.Button">
@@ -254,12 +254,12 @@ export default function Moments() {
                         <View>
                             <View className="index.Button">
                                 <View className="index.FavourIcon"></View>
-                            </View>{" "}
+                            </View>
                         </View>
                         <View>
                             <View className="index.Button">
                                 <View className="index.CommentIcon"></View>
-                            </View>{" "}
+                            </View>
                         </View>
                         <View>
                             <View className="index.Button">
@@ -285,15 +285,8 @@ export default function Moments() {
                     </View>
                 </View>
             </View>
-
-            
-            
-            <View className="index.container" style="margin-top:100px">
-                {" "}
-            </View>
-
-            <View className="index.AddNewMomentButton"></View>
-
+            <View className="index.container" style="margin-top:100px" />
+            <View className="index.AddNewMomentButton" />
             <BottomNavigation />
         </View>
     );

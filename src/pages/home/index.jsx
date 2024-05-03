@@ -104,13 +104,19 @@ export default function home() {
                                 </View>
                             </View>
                         </View>
-                        <View className="index.button">
+                        <View
+                            className="index.button"
+                            onClick={() =>
+                                Taro.navigateTo({
+                                    url: "/pages/page1/index",
+                                })
+                            }
+                        >
                             <View className="index.body7">找Ta拍</View>
                         </View>
                     </View>
                 </View>
             </View>
-            
             <View className="index.container">
                 <View className="index.card">
                     <View
@@ -151,13 +157,19 @@ export default function home() {
                                 </View>
                             </View>
                         </View>
-                        <View className="index.button">
+                        <View
+                            className="index.button"
+                            onClick={() =>
+                                Taro.navigateTo({
+                                    url: "/pages/photographer/index",
+                                })
+                            }
+                        >
                             <View className="index.body7">找Ta拍</View>
                         </View>
                     </View>
                 </View>
             </View>
-
             <View className="index.container">
                 <View className="index.card">
                     <View
@@ -192,19 +204,27 @@ export default function home() {
                                 style={{ marginRight: "5px" }}
                             ></View>
                             <View>
-                                <View className="index.username">小王不吃香菜</View>
+                                <View className="index.username">
+                                    小王不吃香菜
+                                </View>
                                 <View className="index.number">
                                     累计获赞3780
                                 </View>
                             </View>
                         </View>
-                        <View className="index.button">
+                        <View
+                            className="index.button"
+                            onClick={() =>
+                                Taro.navigateTo({
+                                    url: "/pages/photographer/index",
+                                })
+                            }
+                        >
                             <View className="index.body7">找Ta拍</View>
                         </View>
                     </View>
                 </View>
             </View>
-
             <View className="index.container">
                 <View className="index.card">
                     <View
@@ -239,19 +259,27 @@ export default function home() {
                                 style={{ marginRight: "5px" }}
                             ></View>
                             <View>
-                                <View className="index.username">小羊呼呼睡</View>
+                                <View className="index.username">
+                                    小羊呼呼睡
+                                </View>
                                 <View className="index.number">
                                     累计获赞9980
                                 </View>
                             </View>
                         </View>
-                        <View className="index.button">
+                        <View
+                            className="index.button"
+                            onClick={() =>
+                                Taro.navigateTo({
+                                    url: "/pages/photographer/index",
+                                })
+                            }
+                        >
                             <View className="index.body7">找Ta拍</View>
                         </View>
                     </View>
                 </View>
             </View>
-
             <View className="index.container">
                 <View className="index.card">
                     <View
@@ -286,24 +314,28 @@ export default function home() {
                                 style={{ marginRight: "5px" }}
                             ></View>
                             <View>
-                                <View className="index.username">我爱吃火锅</View>
+                                <View className="index.username">
+                                    我爱吃火锅
+                                </View>
                                 <View className="index.number">
                                     累计获赞11279
                                 </View>
                             </View>
                         </View>
-                        <View className="index.button">
+                        <View
+                            className="index.button"
+                            onClick={() =>
+                                Taro.navigateTo({
+                                    url: "/pages/photographer/index",
+                                })
+                            }
+                        >
                             <View className="index.body7">找Ta拍</View>
                         </View>
                     </View>
                 </View>
             </View>
-
-
-
-            <View className="index.container" style="margin-top:100px">
-                {" "}
-            </View>
+            <View className="index.container" style="margin-top:100px"></View>
             <BottomNavigation />
         </View>
     );
