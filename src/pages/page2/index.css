@@ -1,0 +1,496 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.box {
+    display: flex;
+    margin: 10px;
+}
+
+.page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 16px);
+    border-radius: 52px;
+    opacity: 1;
+    background: #fff8e8;
+    border-width: 4px 14px 12px 6px;
+    border-style: solid;
+    border-color: #000000;
+    z-index: -1;
+}
+
+.backgroundLogo {
+    position: fixed;
+    right: 10px;
+    top: 950px;
+    bottom: 0px;
+    width: 370px;
+    height: 458px;
+    mix-blend-mode: multiply;
+    opacity: 0.3;
+    background: url(image/Snap-logo.png) no-repeat center center;
+    background-size: cover;
+}
+.head2 {
+    /* 矩形 144 */
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    width: calc(100vw - 18px);
+    height: 190px;
+    border-radius: 52px 52px 0px 0px;
+    opacity: 1;
+
+    background: #ffd500;
+}
+
+.backIcon {
+    /* 路径 */
+
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+
+    background: url(image/backIcon.png) no-repeat center center;
+    background-size: cover;
+}
+.backButton {
+    /* arrow-go-back-fill */
+
+    position: absolute;
+    left: 50px;
+    top: 95px;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+}
+
+.backgroundPicture {
+    /* 矩形 301 */
+
+    position: absolute;
+    left: 5px;
+    top: 120px;
+    width: 732px;
+    height: 694px;
+    opacity: 1;
+
+    background: url(image/backgroundPicture.png) no-repeat center center;
+    background-size: contain;
+}
+.card1 {
+    /* 矩形 292 */
+
+    position: absolute;
+    left: 6px;
+    bottom: 10px;
+    width: 734px;
+    height: 954px;
+    transform: rotate(180deg);
+    opacity: 1;
+
+    background: rgba(255, 213, 0, 0.8);
+
+    box-sizing: border-box;
+    border: 8px solid #3d3d3d;
+    border-radius: 0px 0px 36px 36px;
+
+    backdrop-filter: blur(20px);
+}
+.text1 {
+    /* 三步完成你的预定 */
+    position: absolute;
+    left: 90px; /* 原始值为 50px，加上 40 后为 90px */
+    top: 724px; /* 原始值为 684px，加上 80 后为 724px */
+    width: 662px;
+    height: 82px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.text2 {
+    /* STEP 1 */
+    position: absolute;
+    left: 116px; /* 原始值为 76px，加上 40 后为 116px */
+    top: 796px; /* 原始值为 776px，加上 80 后为 796px */
+    width: 494px;
+    height: 82px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.card2 {
+    /* 矩形 262 */
+    position: absolute;
+    left: 104px; /* 原始值为 64px，加上 40 后为 104px */
+    top: 862px;
+    width: 542px;
+    height: 624px;
+    border-radius: 28px;
+    opacity: 1;
+    background: #fff8e8;
+    box-sizing: border-box;
+    border-width: 4.8px 10px 8px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+}
+
+.text3 {
+    /* 意向摄影师 */
+    position: absolute;
+    left: 150px; /* 原始值为 110px，加上 40 后为 150px */
+    top: 884px;
+    width: 366px;
+    height: 60px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #000000;
+}
+
+.card3 {
+    /* 矩形 260 */
+    position: absolute;
+    left: 376px; /* 原始值为 336px，加上 40 后为 376px */
+    top: 890px;
+    width: 226px;
+    height: 132px;
+    border-radius: 12px;
+    opacity: 1;
+    background: #ffd500;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+}
+
+.text4 {
+    /* 预计花费 */
+    position: absolute;
+    left: 396px; /* 原始值为 356px，加上 40 后为 396px */
+    top: 898px;
+    width: 100px;
+    height: 34px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #000000;
+}
+
+.text5 {
+    /* 原价 */
+    position: absolute;
+    left: 402px; /* 原始值为 362px，加上 40 后为 402px */
+    top: 948px;
+    width: 40px;
+    height: 16px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #000000;
+}
+
+.text6 {
+    /* 328 */
+    position: absolute;
+    left: 430px; /* 原始值为 390px，加上 40 后为 430px */
+    top: 946px;
+    width: 44px;
+    height: 20px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-decoration: line-through;
+    font-feature-settings: "kern" on;
+    color: #ff4d4d;
+}
+
+.text7 {
+    /* 258 */
+    position: absolute;
+    left: 396px; /* 原始值为 356px，加上 40 后为 396px */
+    top: 956px;
+    width: 96px;
+    height: 64px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #000000;
+}
+
+.text8 {
+    /* ¥ */
+    position: absolute;
+    left: 485px; /* 原始值为 442px，加上 40 后为 482px */
+    top: 982px;
+    width: 18px;
+    height: 34px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #808080;
+}
+
+.text9 {
+    /* 30%OFF */
+    position: absolute;
+    left: 515px; /* 原始值为 480px，加上 40 后为 520px */
+    top: 974px;
+    width: 62px;
+    height: 24px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.text14 {
+    position: absolute;
+    left: 520px; /* 原始值为 480px，加上 40 后为 520px */
+    top: 974px;
+    width: 62px;
+    height: 24px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.chip1 {
+    /* 矩形 254 */
+    position: absolute;
+    left: 510px; /* 原始值为 470px，加上 40 后为 510px */
+    top: 968px;
+    width: 80px;
+    height: 34px;
+    border-radius: 40px;
+    opacity: 1;
+    background: #ff2929;
+}
+
+.chip2 {
+    /* 组 68 */
+    position: absolute;
+    left: 150px; /* 原始值为 110px，加上 40 后为 150px */
+    top: 972px;
+    width: 130px;
+    height: 46px;
+    opacity: 1;
+    background: url(image/chip2.png) no-repeat center center;
+    background-size: cover;
+}
+
+.text10 {
+    /* 您的昵称 */
+    position: absolute;
+    left: 150px; /* 原始值为 110px，加上 40 后为 150px */
+    top: 1030px;
+    width: 154px;
+    height: 56px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #000000;
+}
+
+.textfield {
+    /* 矩形 257 */
+    position: absolute;
+    left: 142px; /* 原始值为 102px，加上 40 后为 142px */
+    top: 1074px;
+    width: 468px;
+    height: 42px;
+    border-radius: 28px;
+    opacity: 1;
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 2px solid #3d3d3d;
+}
+
+.text11 {
+    /* 摄影师怎么称呼你？ */
+    position: absolute;
+    left: 162px; /* 原始值为 122px，加上 40 后为 162px */
+    top: 1080px;
+    width: 228px;
+    height: 40px;
+    opacity: 1;
+    font-family: Source Han Sans;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #b5b5b5;
+}
+
+.text15 {
+    /* 三人及以上 */
+    position: absolute;
+    left: 360px; /* 原始值为 456px，加上 40 后为 496px */
+    top: 1242px;
+    width: 100px;
+    height: 22px;
+    opacity: 1;
+    font-family: Source Han Sans;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #606060;
+}
+
+.text12 {
+    /* *如果所选摄影师不支持校外约拍则此项不可选 */
+    position: absolute;
+    left: 142px; /* 原始值为 102px，加上 40 后为 142px */
+    top: 1336px;
+    width: 382px;
+    height: 28px;
+    opacity: 1;
+    font-family: Source Han Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #7b7b7b;
+}
+
+.button {
+    /* 矩形 245 */
+    position: absolute;
+    left: 232px; /* 原始值为 192px，加上 40 后为 232px */
+    top: 1390px;
+    width: 288px;
+    height: 56px;
+    border-radius: 52px;
+    opacity: 1;
+    background: #886a0b;
+    box-sizing: border-box;
+    border-width: 4px 6px 6px 5px;
+    border-style: solid;
+    border-color: #3d3d3d;
+}
+
+.text13 {
+    /* 下一步，选择日期 */
+    position: absolute;
+    left: 290px; /* 原始值为 226px，加上 40 后为 266px */
+    top: 1400px;
+    width: 192px;
+    height: 34px;
+    opacity: 1;
+    font-family: 思源黑体;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0em;
+    font-feature-settings: "kern" on;
+    color: #ffffff;
+}
+
+.circleGroup {
+    /* 组 84 */
+    position: absolute;
+    left: 288px; /* 原始值为 248px，加上 40 后为 288px */
+    top: 1516px;
+    width: 180px;
+    height: 30px;
+    opacity: 1;
+    background: url(image/点点点.png) no-repeat center center;
+    background-size: contain;
+}
+
+.button1 {
+    /* 矩形 271 */
+
+    position: absolute;
+    left: 346px;
+    top: 1234px;
+    width: 60px;
+    height: 40px;
+    border-radius: 32px;
+    opacity: 1;
+
+    background: #ffffff;
+
+    box-sizing: border-box;
+    border: 2px solid #3d3d3d;
+}
+.button2 {
+    /* 矩形 299 */
+
+    position: absolute;
+    left: 474px;
+    top: 1234px;
+    width: 136px;
+    height: 40px;
+    border-radius: 32px;
+    opacity: 1;
+
+    background: #ffffff;
+
+    box-sizing: border-box;
+    border: 2px solid #3d3d3d;
+}

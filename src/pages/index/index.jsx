@@ -26,10 +26,7 @@ export default function Index() {
                 </View>
             </View> */}
             <View className="index.card2">
-                <View
-                    style="position: relative;
-  z-index: 2"
-                >
+                <View style="position: relative; z-index: 2">
                     <View className="index.container">
                         <View className="index.subtitle1">注册/登录</View>
                     </View>
