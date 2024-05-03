@@ -65,9 +65,13 @@ export default function Photographer() {
                 style={{ margin: "0px 10px 0px 10px" }}
                 onClick={() => Taro.navigateTo({ url: "/pages/page5/index" })}
             >
-                {" "}
             </View>
-            <View className="index.defineIcon">确认！一起咔嚓！</View>
+            <View
+                className="index.defineIcon"
+                onClick={() => Taro.navigateTo({ url: "/pages/page5/index" })}
+            >
+                确认！一起咔嚓！
+            </View>
 
             <View
                 className="index.backchangeButton"
@@ -75,7 +79,12 @@ export default function Photographer() {
                 onClick={() => Taro.navigateTo({ url: "/pages/page3/index" })}
             ></View>
 
-            <View className="index.backchangeIcon">返回修改</View>
+            <View
+                className="index.backchangeIcon"
+                onClick={() => Taro.navigateTo({ url: "/pages/page3/index" })}
+            >
+                返回修改
+            </View>
 
             <View className="index.circleGroup"></View>
             {/* <View className="index.card1"></View> */}
