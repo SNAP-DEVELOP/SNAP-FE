@@ -73,6 +73,8 @@ export default function Chatbox() {
                 <View>
                     <View className="index.text4">您的订单专属沟通群</View>
                     <View className="index.personGroupIcon"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}></View>
+
+
                     <View className="index.card2" onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}></View>
                         <View className="index.chip"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}>
                         </View>
@@ -89,6 +91,24 @@ export default function Chatbox() {
                         </View>
                         <View className="index.text8"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}>23:22</View>
                         <View className="index.avatorGroup"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}></View>
+
+                        <View className="index.card3" onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}></View>
+                        <View className="index.chip2"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}>
+                        </View>
+                            <View className="index.text11"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}>进行中</View>
+                        <View className="index.text12"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}>
+                            寻屿 & 小羊 5.20校内..
+                        </View>
+                        <View className="index.text15"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}>
+                            寻屿：我有时间，带上我舍友...
+                        </View>
+                        <View className="index.text16"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}>16:22</View>
+                        <View className="index.text13"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}>
+                            小羊：晚上八点可以嘛，我们下课...
+                        </View>
+                        <View className="index.text14"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}>15:45</View>
+                        <View className="index.avatorGroup2"onClick={() => Taro.navigateTo({ url: "/pages/chatbox/chatroom/index" })}></View>
+
                 </View>
             )}
             <BottomNavigation />
