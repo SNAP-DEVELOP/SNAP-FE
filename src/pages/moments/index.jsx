@@ -1,7 +1,7 @@
 import { View } from "@tarojs/components";
 import { useLoad } from "@tarojs/taro";
 import "./index.css";
-
+import { useState } from "react";
 import Taro from "@tarojs/taro";
 
 function BottomNavigation() {
@@ -53,7 +53,12 @@ export default function Moments() {
     useLoad(() => {
         console.log("Page loaded.");
     });
+    const [isLiked, setIsliked] = useState(false);
+    const [isStarred, setIsStarred] = useState(false);
 
+    const handleClick = () => {
+        setIsliked(!isLiked);
+    };
     return (
         <View>
             <View className="index.page" />
@@ -90,8 +95,19 @@ export default function Moments() {
                             </View>
                         </View>
                         <View>
-                            <View className="index.Button">
-                                <View className="index.FavourIcon"></View>
+                            <View
+                                className="index.Button"
+                                onClick={() => {
+                                    setIsliked(!isLiked);
+                                }}
+                            >
+                                <View
+                                    className={
+                                        isLiked
+                                            ? "index.FavourIconOnclick"
+                                            : "index.FavourIcon"
+                                    }
+                                ></View>
                             </View>
                         </View>
                         <View>
@@ -100,8 +116,17 @@ export default function Moments() {
                             </View>
                         </View>
                         <View>
-                            <View className="index.Button">
-                                <View className="index.StarIcon"></View>
+                            <View className="index.Button" onClick={() => {
+                                    setIsStarred(!isStarred);
+                                }}
+                            >
+                                <View
+                                    className={
+                                        isStarred
+                                            ? "index.StarIconOnclick"
+                                            : "index.StarIcon"
+                                    }
+                                ></View>
                             </View>
                         </View>
                     </View>

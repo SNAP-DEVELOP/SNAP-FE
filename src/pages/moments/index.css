@@ -124,6 +124,7 @@
     background: url(image/ChatIcon.png) no-repeat center center;
     background-size: cover;
 }
+
 .ChatButton {
     display: flex;
     justify-content: center; /* 水平居中 */
@@ -263,11 +264,16 @@ color: rgba(61, 61, 61, 0.4);
     width: 50px;
     height: 50px;
     opacity: 1;
-
     background: url(image/FavourIcon.png) no-repeat center center;
     background-size: cover;
 }
-
+.FavourIconOnclick {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  background: url(image/FavourIconOnclick.png) no-repeat center center;
+  background-size: cover;
+}
 .FavourButton {
     /* thumb-up-fill */
     width: 50px;
@@ -301,6 +307,13 @@ color: rgba(61, 61, 61, 0.4);
     background-size: cover;
 }
 
+.StarIconOnclick {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  background: url(image/StarIconOnclick.png) no-repeat center center;
+  background-size: cover;
+}
 .StarButton {
     /* star-fill */
     width: 50px;
